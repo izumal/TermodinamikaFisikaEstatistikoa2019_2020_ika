@@ -3,7 +3,7 @@
 
 
 **3.mailako halabeharrezko irakasgaia.**
-2018-2019 Ikasturtea
+2019-2020 Ikasturtea
 
 ---------------------------
 ##### josu.igartua@ehu.eus
@@ -18,28 +18,28 @@ Irakaskuntza-gidan deskribatzen dira irakasgaian azalduko diren gaiak, bi lauhil
 Karpeta horiek bizirik daude: egunero osatuz joango naiz. Inportantea da, beraz, azaltzen ari naizen gaiaren karpeta irakurtzea, eskoletan aztertzen ari garela, baina, noiz behinka, ondo legoke berriro ere ikusitakoetara bueltatzea, informazio berria egon baitaiteke.
 
 
-Beherago ikusiko duzuen estekan, [***Oharrak***](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/Oharrak_2018_2019.md), irakasgaiarekin lotutako oharrak (jakina) argitaratuko ditut Estekan denak gordeta egongo dira, beheko atalean, azkenik iragarritakoa iksuiko duzue. Esaterako, tutoretza-aldaketak, ariketen proposamenak, eskola-orduen aldaketak, gomendatutako irakurketak eta gomendatutako proposamenak...
+Beherago ikusiko duzuen estekan, [***Oharrak***](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/Oharrak_2019_2020.md), irakasgaiarekin lotutako oharrak (jakina) argitaratuko ditut Estekan denak gordeta egongo dira, beheko atalean, azkenik iragarritakoa iksuiko duzue. Esaterako, tutoretza-aldaketak, ariketen proposamenak, eskola-orduen aldaketak, gomendatutako irakurketak eta gomendatutako proposamenak...
 
 ----------------------------
 
 ### Irakasgaiarekin lotutako informazioa
 
 * #### Tutoretzak
-    * astearteetan: 12:00-15:00
-    * ostegunetan:  12:00-15:00
+    * astelehenetan: 12:00-15:00
+    * ostiraletan:  12:00-15:00
 
 
 * #### Egutegia
 
     1. Ikasturtekoa [Egutegia](https://www.ehu.eus/eu/web/ztf-fct/calendario)
-    2. Egunez egunekoa [*egunkaria*](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/EgunkariaLogFile_2018_2019.md) (*log file*)
+    2. Egunez egunekoa [*egunkaria*](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/EgunkariaLogFile_2019_2020_Termo.md) (*log file*)
 
 
-* #### [Irakaskuntza-gida](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/IrakaskuntzaGidaTermo_2018_2019.md)
+* #### [Irakaskuntza-gida](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/IrakaskuntzaGidaTermo_2019_2020.md)
 
 
 ----------------------------------
-#### [Oharrak](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/Oharrak_2018_2019.md)  
+#### [Oharrak](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/Oharrak_2019_2020.md)
 ----------------------------------
 
 
