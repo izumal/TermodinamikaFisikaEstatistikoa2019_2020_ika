@@ -113,3 +113,5 @@ $\require{\graphicx}$
         - egindako azalpenean, $S_{1}$ eta $S_{2}$ sistemetako lerro isotermo korrespondenteen formek ez dute berdin izan behar
         - lerro isotermo korrespondenteak
       - tenperatura
+- 2.4 [Sistemen tenperatura: tenperatura-eskala eta tenperaturaren neurketa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/02_07_11.pdf),
+   - tenperaturaren balioa finkatzeko prozedura orokorra
