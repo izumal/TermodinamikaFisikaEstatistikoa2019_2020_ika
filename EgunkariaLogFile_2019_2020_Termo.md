@@ -59,7 +59,6 @@ $\require{\graphicx}$
       4. Termodinamikaren ikuspuntutik **edozein ingurune**, hots, aztertu nahi den sistemarekin batera definitu dena eta aztertuko den *unibertsoa* osatuko duena, **sistema termodinamikoa da**, baina ez da aztertuko, nahiz eta bere ezaugarriren bat ezagutuko den.
 
 
-
 -----------------------
 **Sep2019-12**  (1.0 -  4.0; guztira  4.0)
 
@@ -115,3 +114,27 @@ $\require{\graphicx}$
       - tenperatura
 - 2.4 [Sistemen tenperatura: tenperatura-eskala eta tenperaturaren neurketa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/02_07_11.pdf),
    - tenperaturaren balioa finkatzeko prozedura orokorra
+
+-----------------------
+
+**Sep2019-17**  (1.0 -  6.0; guztira  6.0)
+
+- 2.4 [Sistemen tenperatura: tenperatura-eskala eta tenperaturaren neurketa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/02_07_11.pdf),
+   - [gas idealaren tenperatura-eskala](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/02_08_12.pdf):
+     - [bolumen konstanteko termometroa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/02_10_13.pdf)
+
+#### Iruzkinak
+
+>1. $\beta$ parametroa *naturalagoa* da sistemen egoera termikoa ezaugarritzeko ohiko $T$ tenperatura bera baino.  [ikusi hementxe](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/02_10_14_Eranskina01.pdf)
+>
+>2. [Tenperaturaren esangura (1)](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/02_10_14_Eranskina02.pdf) eta [hauxe](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/02_10_14_Eranskina03.pdf)
+>
+>3. [Tenperaturaren esangura (2)](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/02_10_14_Eranskina04.pdf)
+
+
+### 2. Eskola-ordua:
+
+**3. Gaia: [Egoera-ekuazioa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/3_Gaia_EgoeraEkuazioa/3_Gaia_EgoeraEkuazioa.md)**, 2Z
+[gardenkia](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_01_14.pdf)
+
+- 3.1 [Sistema termodinamiko bakuna (sinplea, hidrostatikoa)](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_02_15.pdf)
