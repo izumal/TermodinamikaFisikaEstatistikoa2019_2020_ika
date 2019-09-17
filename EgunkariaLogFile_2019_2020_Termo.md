@@ -132,8 +132,6 @@ $\require{\graphicx}$
 >3. [Tenperaturaren esangura (2)](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/02_10_14_Eranskina04.pdf)
 
 
-### 2. Eskola-ordua:
-
 **3. Gaia: [Egoera-ekuazioa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/3_Gaia_EgoeraEkuazioa/3_Gaia_EgoeraEkuazioa.md)**, 2Z
 [gardenkia](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_01_14.pdf)
 
