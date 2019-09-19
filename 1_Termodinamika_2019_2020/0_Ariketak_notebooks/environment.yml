@@ -2,8 +2,8 @@ name: require
 channels:
   - conda-forge
 dependencies:
-- scipy
-- numpy
-- matplotlib
-- pip:
-  - jupyterlab_latex
+  - scipy
+  - numpy
+  - matplotlib
+  - pip:
+    - jupyterlab_latex
