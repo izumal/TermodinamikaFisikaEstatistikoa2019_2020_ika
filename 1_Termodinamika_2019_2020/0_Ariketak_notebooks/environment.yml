@@ -1,0 +1,8 @@
+name: require
+channels:
+  - conda-forge
+dependencies:
+- scipy
+- numpy
+- pip
+- matplotlib
