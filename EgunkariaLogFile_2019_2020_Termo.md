@@ -136,3 +136,50 @@ $\require{\graphicx}$
 [gardenkia](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_01_14.pdf)
 
 - 3.1 [Sistema termodinamiko bakuna (sinplea, hidrostatikoa)](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_02_15.pdf)
+
+-----------------------
+
+**Sep2019-18**  (2.0 -  8.0; guztira  8.0)
+
+**1. Ordua**
+
+**3. Gaia: [Egoera-ekuazioa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/3_Gaia_EgoeraEkuazioa/3_Gaia_EgoeraEkuazioa.md)**, 2Z
+
+- 3.2 [Oreka **Termodinamikoa** (sistema sinplean, hidrostatikoan)](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_03_16.pdf)
+
+- 3.3 [Egoera-ekuazioa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_04_17.pdf)
+  - egoera-ekuazioaren adierazpide grafikoen zenbait adibide
+[03_05_18.pdf](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_05_18.pdf)
+  - egoera-ekuazioaren adierazpide diferentziala
+[03_06_19.pdf](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_06_19.pdf)
+
+- 3.4 [**prozesu kuasiestatikoa**](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_07_20.pdf)
+
+
+**2. Ordua**
+
+- [3.4 [**prozesu kuasiestatikoa**](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_07_20.pdf) gogorarazi]
+
+   - [koefiziente esperimentalak](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_08_21.pdf): $\alpha$ eta $\kappa_{T}$
+     - $\alpha\equiv\frac{1}{V}\left(\frac{\partial V}{\partial T}\right)_{p}$
+     - $\kappa_{T}\equiv-\frac{1}{V}\left(\frac{\partial V}{\partial p}\right)_{T}$
+
+- Iruzkinak:
+
+  - Beraz, bi koefiziente esperimentalen definizioen *azpian* egoera-ekuazio mekanikoa dago, hots: $V=V(T,p)$. Horren arabera, $T$ eta $p$ dira aldagai independenteak (askatasun-graduek bana dute esleituta).
+  - Aldagai independenteak edozein izan daitezte, nahiz eta masa konstanteko sistema hidrostatikoarekin lotutako askatasun-graduak *mekanikoa* eta *termikoa* diren, sistemaren deskribapenean parte hartzen duten edozein aldagai aukeratu daiteke (gure esku dago).
+  - Egoera-ekuazio mekanikoa beste edozein formatan adieraz daiteke; hau da, aukeratutako edozein aldagai termodinamikoen bikoteren funtzioan idatz daiteke:
+  $$ V=V(T,p) \Leftrightarrow T=T(V,p) \Leftrightarrow p=p(T,V)$$
+  - Aukeratutako forma batetik bestera bi modutan (gutxienez pasa daiteke):
+    - aukeratuako aldagai *dependentearen* adierazpen diferentzialean beste edozein aldagairen diferentziala bakanduz
+    - deribatu partzialen arteko honako bi erlazio hauek erabiliz:
+      - $\left(\frac{\partial X}{\partial Y}\right)_Z\equiv\frac{1}{\left(\frac{\partial Y}{\partial X}\right)_Z}$
+      - $\left(\frac{\partial X}{\partial Y}\right)_Z\equiv -\frac{\left(\frac{\partial Z}{\partial Y}\right)_X}{\left(\frac{\partial Z}{\partial X}\right)_Y}$
+  - Egoera-ekuazioan dagoen informazioa (fisikoa, sistemari buruzkoa, termodinamikak teoria moduan ezagutzen ez duena) eta berarekin lotutako 2 koefiziente esperimentaletan dagoena baliokideak dira.
+  Batetik bestera bi noranzkotan pasa daiteke:
+    - egoera-ekuaziotik koefiziente esperimentaletara: *deribatuz*
+    - koefiziente esperimentaletatik egoera-ekuaziora: *integratuz*
+    ($+$ sistemaren oreka-egoeraren bat ezagutu beharko da, *integrazio-konstantearen balioa funkatzeko*)
+  - Irudietan ia-ia berbera dago; baina, kontuz! ñabardura dago:
+  - Prozesua eta Egoera-ekuazioa:
+  ![Prozesua eta Egoera-ekuazioa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_07_20_1.png)

@@ -41,7 +41,3 @@ Beherago ikusiko duzuen estekan, [***Oharrak***](https://github.com/jmigartua/Te
 ----------------------------------
 #### [Oharrak](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/Oharrak_2019_2020.md)
 ----------------------------------
-
-
-
-[![Analytics](https://ga-beacon.appspot.com/UA-73141475-1/https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2017_2018/README.md)](https://github.com/igrigorik/ga-beacon)
