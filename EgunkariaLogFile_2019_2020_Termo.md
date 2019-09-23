@@ -183,7 +183,7 @@ $\require{\graphicx}$
   - Irudietan ia-ia berbera dago; baina, kontuz! ñabardura dago:
   - Prozesua eta Egoera-ekuazioa:
     - ![Prozesua eta Egoera-ekuazioa 1](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_07_20_1.pdf)
-    - ![Prozesua eta Egoera-ekuazioa 2](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_07_23_1.pdf)
+    - ![Prozesua eta Egoera-ekuazioa 2](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_07_28_1.pdf)
 
 
 
@@ -233,7 +233,7 @@ $\require{\graphicx}$
         - $W=W(n, p, T, \dots)$
       - Ibilbideko integralak dira
     - Adibidea: (oraindik definitu gabeko gas ideala) sistema baten
-    ![Adibidea, Prozesua eta Egoera-ekuazioa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_01_23_1.pdf)
+    ![Adibidea, Prozesua eta Egoera-ekuazioa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_01_28_1.pdf)
   - Orokorrean, bi diferentzial ez-zehatzen batura diferentzial ez-zehatza da
     Aipatutako bi diferentzial ez-zehatz berezi (fisikoki interpretazioa dute) horien batura **beti** da diferentzial zehatza
     Bitxikeria hori Izadiak finkatzen du
