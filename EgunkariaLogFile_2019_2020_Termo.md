@@ -182,4 +182,96 @@ $\require{\graphicx}$
     ($+$ sistemaren oreka-egoeraren bat ezagutu beharko da, *integrazio-konstantearen balioa funkatzeko*)
   - Irudietan ia-ia berbera dago; baina, kontuz! ñabardura dago:
   - Prozesua eta Egoera-ekuazioa:
-  ![Prozesua eta Egoera-ekuazioa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_07_20_1.pdf)
+    - ![Prozesua eta Egoera-ekuazioa 1](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_07_20_1.pdf)
+    - ![Prozesua eta Egoera-ekuazioa 2](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_07_23_1.pdf)
+
+
+
+**Sep2019-19**  (1.0 -  9.0; guztira  9.0)
+
+
+
+
+
+
+-----------------------
+## 2. astea
+---------
+
+**Sep2019-23**  (1.0 -  5.0; guztira  5.0)
+
+**4. Gaia: [Termodinamikaren Lehen Printzipioa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/4_Gaia_LehenengoPrintzipioa/4_Gaia_LehenengoPrintzipioa.md)**, 2Z
+[gardenkia](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_01_23.pdf)
+
+- Iruzkinak:
+
+  - Gaiaren helburua da *Termodinamikaren Lehen Printizpioaren adierazpen ondorioztatzea*.
+  - Orain arteko sistemek ez zuten askatasun-gradu termikoa eta energiaren kontzerbazioaren adierazpenean ez zegoen horrekin lotutako ekarpenik
+    -  Termodinamikaren testuinguruan askatasun-gradu termikoa funtsezkoa da eta bere ekarpena kontuan hartu behar da ezinbestean
+    -  Horixe da, beraz, helburua
+  - Aztergai-sistema da masa konstanteko sistema hidrostatikoa, beraz, soilik bi askatasun-gradukoa den sistema, honako bi hauek:
+    - mekanikoa: sistema mekanikoki lotuta dago (elkarrekintza dauka, ...) ingurunearekin
+      ***lan mekanikoa*** (definitzeko) baino ezin du egin
+    - termikoa: sistema termikoki lotuta dago (elkarrekintza dauka, ...) ingurunearekin
+      ***lan termikoa*** (definitzeko, beroa trukatuz aldatuko du bere egoera)
+  - Bi modu independente horien bidez alda dezake sistemak bere energia-edukia, bere egoera, *orokorrean, biak era independenatean erabiliz*
+    (Ez da inolako orokortasunik galduko, nahiz eta 2 askatasun-graduko sistema hidrostatikoa baino ez aztertu)
+  - Egoera aldatzeko bi modu horien bidezko energiarako ekarpena lortu behar da
+    - Prozesu kuasiestatikoak erabiliko dira horretarako
+    - Horietan definituko da zer ekarpen egiten duten elkarrekintza mekanikoak eta termikoak
+    - horien adierazpen diferentzialak lortuko dira
+  - Egoera aldatzeko bi modu horiek energiaren dimentsioak dituzte, baina ez dira energiak
+    - fisikoki:
+      - Ez dira sistemei dagozkien propietateak
+      - Ez dago sistema bati dagokion *lana* edo sistema bati dagokion *beroa*
+      Badago *prozesu batean*, kuasiestatikoa bera (kalkuluak egin behar badira), sistema batek *egindako* lana (positibo zein negatibo, ikusiko denez) edo *trukatutako* beroa
+    - matematikoki:
+      - Ez daude funtzio matematikoak horiek adierazteko
+      - Ez dira diferentzial zehatzak, ez dira *egoera-funtzioak*; beraz, lanaren eta beroaren balioek **badute** sistemaren egoera aldatzeko erabili den ibilbidearekiko mendekotasunik
+      - Ezin da honelako hauek idatzi:
+        - $Q=Q(T, p, V, \dots)$
+        - $W=W(n, p, T, \dots)$
+      - Ibilbideko integralak dira
+    - Adibidea: (oraindik definitu gabeko gas ideala) sistema baten
+    ![Adibidea, Prozesua eta Egoera-ekuazioa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_01_23_1.pdf)
+  - Orokorrean, bi diferentzial ez-zehatzen batura diferentzial ez-zehatza da
+    Aipatutako bi diferentzial ez-zehatz berezi (fisikoki interpretazioa dute) horien batura **beti** da diferentzial zehatza
+    Bitxikeria hori Izadiak finkatzen du
+  - Lan mekanikoa definituko da eta bere inguruan dauden beste zenbait kontzeptu
+    *Mekanikako* lan mekanikoa da
+    - Sistema *berezietara* orokortuko da definizioa
+  - Beroa (*lan termikoa*) definituko da eta bere inguruan dauden beste zenbait kontzeptu
+    Ez dago *Mekanikan* definituta
+    - Sistema *berezietara* orokortuko da definizioa
+  - Orokorrean, edozein lanek (hots, *edozein askatasun-graduk energiaren aldaketarako egingo duen ekarpenak*) duen forma honako hau da:
+    - $\delta W^{orokor}_{Y,X}= Y\,dX$
+    - Adierazpen horretan, $Y$ eta $X$ dira askatasun-graduarekin lotutako aldagai intentsibo eta estentsibo, konjokatuak (*Mekanikako* zentzuan) horiek, hurrenez hurren
+- 4.1 [**Lana (Lan mekanikoa)**](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_02_24.pdf) gogorarazi
+  - Mekanikako lana: $\delta W = -\vec{F}\cdot d\vec{x}$
+  - *kanpo lana* baino ez da kontuan hartzen termodinamikan
+- [lan mekanikoa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_03_25.pdf)
+  - Mekanikako aldagaiak ez dira egokiak termodinamikaren testuinguruan, beraz, $A$ azalera tartekatuz
+     - $\vec{F}\rightarrow p$ eta
+     - $d\vec{x}\rightarrow dV$
+  - adierazpen diferentziala: $\delta W = -pdV$
+  - ***Zeinu irizpidea***:
+    - sistemak lana egiten badu, *negatibo* da
+    - sistemari lana egiten bazaio, *positibo* da
+  - $\delta W = -pdV$ adierazpenean
+    - $p$ da sistemaren presioa, oreka(termodinamikoko)-egoeran
+      $p$ dagokio sistema osoari, balio horren bidez sistemaren egoera mekanikoa ezaugarritzen da, ...
+    - $dV$ da sisteman gertatu den bolumen-aldaketa (infinitesimala, diferentziala)
+      Bolumen-aldaketa hori, sistemarena, ingurunearen kontrakoa da: batak galden duena besteak irabazten du
+      - Sistema *konprimitzen* bada ($dV<0$), ingurunea zalbadu delako da
+      - Sistema *zabaltzen* (handitzen) bada ($dV>0$), ingurunea konprimitu delako da
+- [adierazpen finitua](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_03_25.pdf)
+  - $\int\delta W\equiv W = -\int pdV$
+  - adierazpen hori *formala* da: integratu ahal izateko derrigorrean ezagutu behar da $p = p(V)$ ekuazioa
+    - ekuazioa hori **bada**:
+      - sistema eraman den ibilbideari dagokion adierazpena,
+      - prozesuaren, kuasiestatikoa bera, adierazpena
+    - ekuazio hori **ez da** egoera-ekuazioa
+- [lanaren interpretazioa, $p/V$ diagraman](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_04_26.pdf)
+  - $\int\delta W\equiv W = -\int pdV$
+    $\hspace{1.9cm}W = -\int p(V)dV$
+    - inportantea da konturatzea $p = p(V)$ ezagutu behar dela!!
