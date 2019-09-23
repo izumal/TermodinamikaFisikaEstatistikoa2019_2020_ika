@@ -188,7 +188,7 @@ $\require{\graphicx}$
 
 **Sep2019-19**  (1.0 -  9.0; guztira  9.0)
 
-
+**Ariketak nola aurkitu aurkeztu**
 
 
 
