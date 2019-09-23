@@ -182,4 +182,4 @@ $\require{\graphicx}$
     ($+$ sistemaren oreka-egoeraren bat ezagutu beharko da, *integrazio-konstantearen balioa funkatzeko*)
   - Irudietan ia-ia berbera dago; baina, kontuz! ñabardura dago:
   - Prozesua eta Egoera-ekuazioa:
-  ![Prozesua eta Egoera-ekuazioa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_07_20_1.png)
+  ![Prozesua eta Egoera-ekuazioa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_07_20_1.pdf)
