@@ -139,7 +139,7 @@ $\require{\graphicx}$
 
 -----------------------
 
-**Sep2019-18**  (2.0 -  8.0; guztira  8.0)
+**Sep2019-18**  (2.0 -  8.0; guztira  8.0) (+1 aurreratuta)
 
 **1. Ordua**
 
@@ -185,19 +185,18 @@ $\require{\graphicx}$
     - ![Prozesua eta Egoera-ekuazioa 1](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/03_07_20_1.pdf)
 
 
+-----------------------
 
 **Sep2019-19**  (1.0 -  9.0; guztira  9.0)
 
 **Ariketak nola aurkitu aurkeztu**
 
 
-
-
 -----------------------
 ## 2. astea
 ---------
 
-**Sep2019-23**  (1.0 -  5.0; guztira  5.0)
+**Sep2019-23**  (1.0 - 10.0; guztira 10.0)
 
 **4. Gaia: [Termodinamikaren Lehen Printzipioa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/4_Gaia_LehenengoPrintzipioa/4_Gaia_LehenengoPrintzipioa.md)**, 2Z
 [gardenkia](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_01_23.pdf)
@@ -274,3 +273,107 @@ $\require{\graphicx}$
   - $\int\delta W\equiv W = -\int pdV$
     $\hspace{1.9cm}W = -\int p(V)dV$
     - inportantea da konturatzea $p = p(V)$ ezagutu behar dela!!
+
+
+-----------------------
+
+**Sep2019-24**  (1.0 - 11.0; guztira 11.0)
+
+- 4.2 [**Lanaren orokortzea**](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_05_27.pdf)
+  - lan mekanikoan erabili den definizio berbera erabiliko da, formari dagokionez
+  - demagun askatasun-gradu mekanikoa ez den beste askatasun-gradu batekin lotutako lana (lanaren *abizena* izango da aipatutako askatasun-graduari dagokiona, jakina) idatzi nahi dela:
+    - askatasun-graduarekin lotuako aldagai **in**tentsiboa eta **es**tentsiboa direla $Y$ eta $X$, hurrenez hurren.
+    - lan mkanaikoarne kasuan $p$ eta $V$ aldagaien parekoak
+    - lana da:
+    $$\boxed{\delta W^{Y,X} =  YdX}$$
+  - askatasun-gradua edozein motatako izan daiteke:
+    - magnetikoa: $(H, M) \Rightarrow \delta W^{H,M}_{mag} =  HdM$
+    - elektrikoa: $(E, P) \Rightarrow \delta W^{E,P}_{ele} =  EdP$
+    - elastikoa: $(\tau, L) \Rightarrow \delta W^{\tau,L}_{ela} =  \tau dL$
+  - Iruzkina:
+  ![Iruzkina](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_07_29_1.png)
+  - askatasun-gradu bat baino gehiagokoren kasuan, askatasun-graduek ekarpena bana egiten dute lanerako
+  - jakina, askatasun-graduarekin lotutako aldagai konjokatuak baino ezin dira erabili lanerako ekarpena eraikitzeko
+  - askatasun-graduekin lotutako aldagai konjokatuak adierazteko edozein ikur erabil daiteke:
+    - orokorrena da, esan bezala, $(Y, X)$ erabiltzea
+    - baina $(\Delta, \bigcirc)$ izan daitezke:
+    $$\boxed{\delta W^{(\Delta, \bigcirc)}_{a-g} = \Delta d\bigcirc}$$
+    - bat baino gehiagoko horiek mota berekoak izan daitezke, zein mota ezberdinekoak: edozein kasutan, ezaugarriek, askatasun-graduek ekarpen bana izango dute
+    - bi askatasun-gradu mekanikoko adibidea:
+      bakoitzak bere aldetik, askastasun-graduak baitira
+      - mekanikoa 1: $(p, V)^1 \Rightarrow [\delta W^{p,V}_{mek} = -pdV]^1$
+      - mekanikoa 2: $(p, V)^2 \Rightarrow [\delta W^{p,V}_{mek} = -pdV]^2$
+    - guztira, lan osoa (guztizko lana) da bien batura:
+     $$\boxed{\delta W^{osoa} =  \sum\limits_{a-g=1}^{2}\delta W_{a-g}}=\delta W_{mek}^{1} + \delta W_{mek}^{2}$$
+  - lanaren adierazpenik orokorrena:
+    $$\boxed{\delta W^{osoa} =  \sum\limits_{i=1}^{n}\delta W_{a-g}}$$
+    -  $i$ d(ir)a sistemaren askatasun-gradua(k)$(a-g)$
+    -  $i$ d(ir)a sistemaren azpisistemak, eta horietan askastasun-graduak
+  - 2 askatasun-graduko mekanikoko adibidea garatuta:
+  ![Adibidea](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_06_28_1.png)
+
+- 4.3 [**Masa konstanteko sistema hidrostatikoaren hiru aldaketa posibleak**](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_08_30.pdf)
+  Masa konstanteko sistema hidrostatikoak 2 askatasun-gradu baino ez dauka: termikoa eta mekanikoa (kimikoa izoztuta dauka). Orduan, orokorrean, bi modutan baino ezin da *lotu*, elkarrekintza izan, ingurunearekin: termikoki edo/eta mekanikoki. Hots, banan banan erabilgarri dituen askatasun-graduak *martxan jarriz*.
+    - lana aztertu denean, aipatu gabe joan da honako hau: lan mekanikoa egiten denean,beti pentsa daiteke sistema ingurunearekin lotuta dagoela mekaniko tramankulu mekaniko baten bidez.
+    - tramankulu mekaniko horren konfigurazioari begiratuz, esan dezakegu lana egin dela eta nolakoa izan den lan hori: positibo edo negatibo.
+    - Irudiko lehen hilaran adierazten da masa konstanteko sistema hidrostatiko bat termikoki isolatuta, horma adiabatikoz inguratuta, eta mekanikoki lotuta, tramankulu mekanikoaren bidez, inguruneari.
+     Sistemak egiten duen lana da ***adiabatikoa***.
+    - Irudiko bigarren hilaran adierazten da masa konstanteko sistema hidrostatikoa termikoki lotua inguruneari, beheko horma diatermoa baita, eta inolako lotura mekanikorekin ingurunearekin (mekanikoki isolatuta da, beraz).
+    - Irudiko hirugarren hilaran adierazten da masa konstanteko sistema hidrostatikoa, kasu honetan, posibleak dituen 2 askatasun-graduak martxan dauzkala: lotura termikoa eta mekanikoa dauka ingurunearekin.
+    Beraz, azken kasu honetan pairatuko du gerta dakiokeen prozesurik orokorrena, zeinak sistemaren egoera termikoa eta mekanikoa independenteki aldatu dituen.
+- 4.4 [**Oinarrizko bereizketa: *sistema/ingurunea* bikotea**](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_09_31.pdf)
+    - [Beste adibide batzuk](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_10_32.pdf)
+
+Iruzkina:
+  - Ez dago energia-barreiaketarik: *ondo* irakurri liburua (1)
+  ![Energia-barreiaketa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_11_33_1_1.png)
+  - Ez dago energia-barreiaketarik: *ondo* irakurri liburua (2)
+  ![Energia-barreiaketa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_11_33_2_1.png)
+
+- 4.4 [**Lan adiabatikoaren azterketa**](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_12_34.pdf)
+  - Inguruenarekin lotura mekanikoa baino ez duen sistema aztertuko da; beraz, egoera aldatzekotan mekanikoki baino ezin izango du aldatu. Gainerako askatasun-graduak izoztuta dauzkala onartuko da.
+  - Zertxobait orokorrago egitearren, masa konstanteko bi azpisistema hidrostatikoz gehi erresistentzia elektriko banaz osatutako sistema konposatua aztertuko da. Hortaz, bina askatasun-gradu dituzte azpisitemek eta, ondorioz, sistema konposatuak lau askatasun-gradu. Halere, azpisistemn artean bereizte-horma diatermoa ezarriko da. Horren arabera, bik partekatuko dute egoera termikoa eta tenperaturaren balio bakarrak balioko du sistema konposatuaren egoera termikoa ezaugarritzeko. Azkenik, sistema konposatuak hiru askatasun-gradu baino ez dauzka: termikoa eta bi mekaniko, bi pistoi higikorren bidez adierazita.
+  - Aldagai independenteen sortan sistema koposatuaren deskribapenean parte hartzen duten edozein hiru aldagaiz osatutako konbinazio ager daiteke; esaterako $(V^{1},V^{2},T)$.
+  - Hiru horien bidez, sistema konposatuari dagokion konfigurazio espazioa eraiki daiteke. Jakina, espazio horretan dagoen edozein puntuk adierazten du sistemari dagokion oreka-egoera. Horietako bi finkatuko dira eta prozesuen bidez lotuko dira: $i$ eta $f$.
+  - Prozesuak orotarikoak izan daitezke:
+    - pistoiak, era independentean, atera edo barneratu daitezke, poliki-poliki (kuasiestatikoki termodinamikan) edo kolpeen bidez, bat-batean, era ez-kuasiestatikoan
+    - azpisitemak osatuz dauden erresistentzia elektrikoetan korronte elektrikoa zirkularaz daiteke (poliki-poliki edo *kolpeka*), horretarako horiekin mekanikoki lotuta dauden tramankulu mekanikoen konfigurazio mekanikoa aldatuz
+    - edo horien bidezko edozein konbinazio
+  - Kasu horietan guztietan, lana baino ez da egiten, lan adiabatikoa, sistema koposatua adiabatikoki isolatuta baitago.
+  - Esperientziak esaten du horietan guztietan egiten den lanaren (lan adiabatikoaren) balioa beti dela berdina: $i$-tik $f$-rako prozesua edozein izanda ere, lanaren balioa ez da aldatzen.
+  - Horrelako lanak, ***lan adiabatikoak***, ez dauka ibilbidearekiko mendekotasunik.
+    - Ibilibidearekiko mendekotasunik ez badauka
+      - matematikoki diferentzial zehatza da
+      - fisikoki sistemaren propietatea da
+    - esperientziaren arabera definitu daiteke (edozein sistemaren kasuan) sistemaren propietatea den magnitude bat, ***barne-energia*** deritzona, zeinaren bi egoeren arteko aldaketa den bi egoera horiek lotzeko egin den lan adiabatikoren berdin:
+    $$W_{i\rightarrow f}^{ad.}\equiv U_{f} - U_{i}$$
+  - Adierazpen horretan:
+    1. energiaren kontserbazioaren printizpioa dago
+      sistemak egin duen lana bere (barne-)energiari esker egin du
+    2. edozein sistemaren kasuan definitu daiteke *barne-energia* propietatea
+    3. Barne-energia da, beraz, sistemaren deskripanean parte hartzen duten aldagai termodinamikoen benetan existitzen den funtzioa, diferentzial zehatza
+
+
+-----------------------
+
+**Sep2019-25**  (2.0 - 13.0; guztira 13.0) (+2 aurreratuta)
+
+
+**1. ordua**
+
+
+**2. ordua**
+
+-----------------------
+
+
+**Sep2019-26**  (1.0 - 14.0; guztira 14.0)
+
+
+
+-----------------------
+
+## 3. astea
+---------
+
+**Sep2019-30**  (1.0 - 15.0; guztira 15.0)
