@@ -361,6 +361,29 @@ Iruzkina:
 
 **1. ordua**
 
+- Gogora ekarri barne-energia funtzioa ondorioztatzeko erabili diren prozesuak, ondo zehaztuz
+
+- Gogora ekarri *edozein sistemaren kasuan ondorioztatu daitekeela $U$ barne-energiaren existentzia eta funtzio hori beti idatz daitekeela sistemaren deskribapenean parte hartzen duten edozein aldagairen sortaren funtzioan eta, gainera, sistemaren propietate bat adierazten duenez, barne-energia egoera-funtzioa dela, diferentzia zehatza.*
+
+- 4.6 [**Lehenengo Printzipioaren formulazio matematikoa**](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_13_35.pdf)
+  - $i$ eta $f$ egoerak berriro lotuko dira baina oraingo honetan lan ez-adiabtikoa eginez; hots, lehengo isolamendu adiabatikoa kenduta.
+  - egindako lana ez da berezia, adibatikoa, baizik eta arrunta; hortaz, lan arrunta den heinean, ibilidearekiko mendekotasuna dauka eta ez da lehengo lan adibatikoaren berdin
+  - halere, bi egoeren arteko barne-energiaren aldaketa, diferentzial zehatza den heinean, ez da aldatu
+  - bi prozesu motetan, adiabatikoa eta ez-adiabtaiko, gertatu den barne-energiaren aldaketa da:
+    - adiabatikoan: $\Delta U_{i-f}^{ad} = W_{i-f}^{ad}$
+    - ez-adiabatikoan: $\Delta U_{i-f}^{ez-ad}=U_{i-f}^{ad}(=W_{i-f}^{ad})\ne W_{i-f}^{ez-ad}$
+  - lan ez-adiabatikoa eta barne-energiaren artean aldea dago, sistema eta inguruenaren artean tenperatura-diferentzia dagoelako, tenperatura-diferentziari esker...
+  - energiaren kontserbazioaren printzipioarekin bat etortzeko, diferentzia hori da ***sistemak ingurunearekin bero moduan trukatu duen energia***
+  $$Q = \Delta U - W$$
+  $$\delta Q = dU - \delta W$$
+  - Energiaren kontserbazioaren printzipioa, askatasun-gradu termikoa kontuan hartuz:
+  $$\boxed{\Delta U = Q + W}$$
+  - Sistemak (masa konstanteko sistema hidrostaikoak, bi askatasun-gradukoa baino ez bera) bi modu dauzka bere egoera, bere energia-edukia, aldatzeko:
+      - termikoki lotuta dagoela ingurunearekin energia bero moduan trukatuz
+      - mekaniko lotuta dagoela ingurunearekin lan eginez
+- 4.7 [**Laburbilduma eta orokortzea**](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_15_37.pdf)
+
+
 
 **2. ordua**
 
