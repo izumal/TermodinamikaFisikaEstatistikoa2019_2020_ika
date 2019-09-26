@@ -469,3 +469,159 @@ $$(T, Y)\hspace{1cm}\delta Q \rightarrow \delta Q (T, Y)$$
 $$(X, Y)\hspace{1cm}\delta Q \rightarrow \delta Q (X, Y)$$
 
 -----------------------
+
+
+**Sep2019-26**  (1.0 - 14.0; guztira 14.0)
+
+$$(T, p)\hspace{1cm}\delta Q \rightarrow \delta Q (T, p)$$
+$$(V, p)\hspace{1cm}\delta Q \rightarrow \delta Q (V, p)$$
+$$(T, X)\hspace{1cm}\delta Q \rightarrow \delta Q (T, X)$$
+$$\boxed{(T, Y)\hspace{1cm}\delta Q \rightarrow \delta Q (T, Y)}$$
+$$(X, Y)\hspace{1cm}\delta Q \rightarrow \delta Q (X, Y)$$
+
+- `Iruzkinak`
+  - Horien bidez, honako informazio hau ezagutzen da:
+    - bi askatasun-graduko, termikoa eta beste bat (orokorrean $(Y,X)$ bikotearen bidez adierazita), edozein sistemaren kasuan, bi askatasun-graduak martxan jarrita daudela, sistemari gerta dakiokeen prozesurik orokorrenean, zenbatekoa den sistemak berak trukatzen duen beroa...
+    - edo gertatu zaion barne-energiaren aldaketa...
+    - edo egin duen lana...ekuazioa adierazten den moduaren arabera
+
+  - Prozesua adierazteko gure esku dago aldagai independenteen bikotea aukeratzea:
+    - prozesuak berak finkatu ditu gehienetan, aldatzen direnak aukeratu behar dira prozesua adierazteko
+    - aukera oso ona da prozesuan konstante diruen aldagia bera aldagai independenteen sortan sartzea, konstantea denez, bere $d$-aldaketa direntziala nulua izango baita eta, ondorioz, integratu beharreko ekuazioa errazten da
+
+- *Mayer*-en erlazioa aipatu, askatasun-graduak termikoa eta mekanikoa direnean (masa konstanteko sistema hidrostatikoa):
+
+$$C_{p} - C_{V} = TV\frac{\alpha^{2}}{\kappa_{T}}$$
+
+- Adierazpen hori beste modu honetan idatz daiteke, zeinean ez direne rabiltzen koefiziente esperimentalak, baizik eta deribatu partzialak:
+
+$$C_{p} - C_{V} =  T \left(\frac{\partial V}{\partial T}\right)_p \left(\frac{\partial p}{\partial T}\right)_V$$
+
+- *Mayer*-en erlazioa aipatu, askatasun-graduak termikoa eta *beste bat* direnean (masa konstanteko sistema):
+
+$$C_{Y} - C_{X} =  -T \left(\frac{\partial X}{\partial T}\right)_Y \left(\frac{\partial Y}{\partial T}\right)_X$$
+
+
+
+
+-----------------------
+
+## 4. astea
+---------
+---------
+
+**Sep2019-30**  (1.0 - 15.0; guztira 15.0)
+
+---------
+
+
+
+---------
+
+**Oct2019-01**  (1.0 - 16.0; guztira 16.0)
+
+---------
+
+
+
+
+---------
+
+**Oct2019-02**  (2.0 - 18.0; guztira 18.0) (+3 aurreratuta)
+
+---------
+
+**1. ordua**
+
+
+**2. ordua**
+
+
+---------
+
+**Oct2019-03**  (1.0 - 19.0; guztira 19.0)
+
+---------
+
+
+
+
+-----------------------
+
+## 5. astea
+---------
+---------
+
+**Oct2019-07**  (1.0 - 20.0; guztira 20.0)
+
+---------
+
+
+
+
+---------
+
+**Oct2019-08**  (1.0 - 21.0; guztira 21.0)
+
+---------
+
+
+
+
+---------
+
+**Oct2019-09**  (2.0 - 23.0; guztira 23.0) (+4 aurreratuta)
+
+---------
+
+**1. ordua**
+
+
+**2. ordua**
+
+
+---------
+
+**Oct2019-10**  (1.0 - 24.0; guztira 24.0)
+
+---------
+
+-----------------------
+
+## 6. astea
+---------
+---------
+
+**Oct2019-14**  (1.0 - 25.0; guztira 25.0)
+
+---------
+
+
+
+
+---------
+
+**Oct2019-15**  (1.0 - 26.0; guztira 26.0)
+
+---------
+
+
+
+
+---------
+
+**Oct2019-16**  (2.0 - 28.0; guztira 28.0) (+5 aurreratuta)
+
+---------
+
+**1. ordua**
+
+
+**2. ordua**
+
+
+---------
+
+**Oct2019-17**  (1.0 - 29.0; guztira 29.0)
+
+---------
