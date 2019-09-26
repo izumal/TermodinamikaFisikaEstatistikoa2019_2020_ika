@@ -14,6 +14,9 @@ $\require{\graphicx}$
 
 # Log file for the subject
 
+
+[//]: # (This syntax works like a comment, and won't appear in any output.)
+[//]: # (https://alvinalexander.com/technology/markdown-comments-syntax-not-in-generated-output)
 -----------------------
 ## 1. astea
 ---------
@@ -193,7 +196,7 @@ $\require{\graphicx}$
 
 
 -----------------------
-## 2. astea
+## 3. astea
 ---------
 
 **Sep2019-23**  (1.0 - 10.0; guztira 10.0)
@@ -387,16 +390,82 @@ Iruzkina:
 
 **2. ordua**
 
+- 4.8 [**Bero-ahalmena**](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_16_38.pdf): Honako hau da *bero-ahalmenaren* eragiketa-definizioa:
+$$C_{\bigcirc}=\left(\frac{\delta Q}{dT}\right)_{\bigcirc}$$
+- Iruzkinak:
+  - Bi kantitateren arteko zatidura da: $\delta Q$ eta $dT$ aldaketa infinitesimalen arteko zatidura.
+  - Interpretazioa: neurtzen du zer eragin duen tenperaturan bero moduan sistemak trukatu (galduz edo irabaziz, negatibo zein positbo izan daiteke beroa, zeinuz) duen energiak; nola aldatzen duen energia horrek tenperatura sistemari.
+  - Definizioz, magnitude *estentsiboa* da, masarekiko mendekotasuna dauka eta letra larriz adierazten da; ez da, beraz, sistemaren, sistema motaren, propietatea, baizik eta aztertzen den sistemaren propietate.
+  - *Masa unitateko bero-ahalmena*, letra xehez adierazita bera, denifitu daiteke eta intentsibo da:
+  $$c_{\bigcirc}=\frac{1}{M}\left(\frac{\delta Q}{dT}\right)_{\bigcirc}$$
+  - Bero moduan sistemak trukatu duen beroak badauka, jakina beroa diferentzial ez-zehatza baita, trukea gertatu den modu esperimentalarekiko (baldintza esperimentalak) mendekotasuna.
+  Horixe da, hain zuzen ere definizioan agertzen den $\circ$ ikurraren esanahia: argi eta garbi adierazi behar da zer baldintza esperimentaletan trukatu duen energia, bero moduan, sistemak.
+  - **birdefinizioa**:
+  $$C_{\textrm{baldintza esperimentalak}}=\left(\frac{\delta Q}{dT}\right)_{\textrm{baldintza esperimentalak}}$$
+  - Beraz: *edozein sistemaren eta askatasun-gradu termikoa ez den haren edozein askatasun-gradurekin lotutako aldagai intentsiboaren eta estentsiboaren bitartez bero-ahalmen bana definitu daiteke*: aldagai horiek definitzen dituzte baldintza esperimentalak.
+    - masa konstanteko sistema hidrostatikoaren kasuan, hortaz, termikoa ez den askatasun-gradua mekanikoa da
+    - askatasun-gradu mekanikoarekin lotutako aldagaiak dira: $p$ eta $V$, hots, bi bero-ahalmenak dira honako hauek:
+    $$C_{p}=\left(\frac{\delta Q}{dT}\right)\_p\,;C_{V}=\left(\frac{\delta Q}{dT}\right)\_V$$
+    - askatasun-gradu *orokor batekin* lotutako aldagaiak dira: $Y$ eta $X$, hots, bi bero-ahalmenak dira honako hauek:
+    $$\boxed{C_{Y}=\left(\frac{\delta Q}{dT}\right)\_Y \,;C_{X}=\left(\frac{\delta Q}{dT}\right)\_X}$$
+  - `Kontuz`: bero-ahalmena aldagai termodinamikoen funtzioa da, orokorrean
+    $C_{V}$ badauka $V$ bolumenarekiko mendekotasunik
+    Bolumen konstanteko bero-ahalmenak neurtzen du energiaren eragina tenperaturan, bolumenaren balio finkoa batea, baina aldatutakoan bolumena eragina ezberdina izan daiteke
+- 4.9 **Bero-iturria**
+  Bero-iturria da masa infinituko eta askatasun-gradu termikoa baino ez duen sistema, gainera, honako ezaugarria dauka sistema berezi honek: ***edozein neurritan truka dezake*** (galduz edo irabaziz) ***energia*** (termikoki baino ez, hori baita daukan askatasun-gradu bakarra) ***bere egoera termikoa aldatu gabe***
+
+- Iruzkinak:
+  - bi prozesutan erabiltzen dira bero-iturriak:
+    - masa finituko sistema baten tenperatura finkatzeko, bero-iturriaren tenperaturaren balioan finkatzeko
+    - masa finituko sistema baten egoera termikoa mantentzeko, bero-iturriarekin ukipen termikoan, bereizte-horma diatermoaren bidez, mantenduz
+  - Bi horien kasuan, bero-iturriaren ikuspuntutik, gertatu den prozesua (tenperatura aldatzekoa zein tenperatura mantetzekoa) beti da kuasiestatiko
+  - Bi horienkasuan, sistemaren ikuspuntutik, prozesuak ez du zertan kuasiestatiko izan, baina izan daiteke
+  - kuasiestatikoa den kasuetan:
+    - tenperatura aldatzeko prozesua:
+      bero-iturrien segida infinituaren bidez adierazten da (jakina, asmatutako prozesua da)
+      Segida infinitua osatzen dituzten bero-iturrien arteko tenperatura-aldaketa $dT$ da, infinitesimala beraz
+    - tenperatura finkatzeko prozesua:
+      bero-iturri bakarra dago eta trukatzen duen $\delta Q$ infinitesimala da sistemak berak trukatzen duena, zeinuz kontrakoa, jakina
+  - Beroa diferentzial ez-zehatza, beraz, edozein kasutan, edozein sistema aztertzen dela, sistemak trukatzen duen bero-kantitatea lortzeko prozesua ezagutu behar da
+    - Bero-ahalmenen definizioak erabil daitezke zenbait baldintza esperimentaletan sistemak trukatzen duen bero kalkulatzeko
+    - baldintza esperimentaletan
+      - $Y$ mantendu bada konstante, orduan:
+      $$[\delta Q = C_{Y}dT]\_Y \Rightarrow Q = \int\limits\_{Y=k} C\_Y dT$$
+      - $X$ mantendu bada konstante, orduan:
+      $$\left[\delta Q = C\_{X}dT \right]\_X \Rightarrow Q = \int\limits\_{X=k} C_{X} dT$$
+- 4.10
+[**Lehen Printzipioaren adierazpen diferentzialaren formak**
+  **masa konstanteko sistema hidrostatikoaren kasuan,**
+  **posibleak diren aldagai termodinamiko independenteen hiru bikoteen funtzioan**](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/04_17_39.pdf):
+  $$(T, V)\hspace{1cm}\delta Q \rightarrow \delta Q (T, V)$$
+  $$(T, p)\hspace{1cm}\delta Q \rightarrow \delta Q (T, p)$$
+  $$(V, p)\hspace{1cm}\delta Q \rightarrow \delta Q (V, p)$$
+
+- `Iruzkinak`:
+  - Lehenengo printzipioaren adierazpen diferentziala nahi den aldagai termodinamikoren bikotearen funtzioan lortzea da adierazpen horiek ondorioztatzearen helburua
+  - lortzen den adierazpena ez da funtzio baten diferentziala (beroa ez baita diferentzial zehatza) baizik eta diferentzialen batura
+    - horrexegatik aurreko adierazpenentan gezia idatzi da
+    - nahiz eta lortutako adierazpenean $=$ berdinatza ikurra idazten den
+  - Korolario moduan: horietako edozein adierazpenen ondorioztatzean lortzen da barne-energiaren *barneko egitura*, hots, aukeratutako aldagai termodinamikoen bikote horretako aldagaiekiko barne-energiaren mendekotasuna
+    - honako adierazpen hau erabat orokorra da *sistema hidrostatikoen kasuan*:
+      $$\left(\left(\frac{\delta Q}{d T}\right)_V=\right)\boxed{C_{V}\equiv\left(\frac{\partial U}{\partial T}\right)_V}$$
+    - hau da: $V$ konstanteko bero-ahalmena da berne-energiaren tenperaturarekiko deribatu partziala bolumena konstante mantenduz burutuz gero prozesua
+      - Jakina, bolumena konstantea bada, (masa konstanteko) sistema hidrostatikoak askatasun-gradu termikoa baino ezin du erabili (bolumena finkatzeak *izozten du mekanikoa*) eta, beraz, energia-edukia aldatzeko duen modu bakarra da bero trukatzea...
+      - Horixe da, hain zuzen ere, $C_{V}$ bero-ahalmenak *esaten duena*: nolakoa den sistemaren portaera/jokabide termikoa bolumena konstantea denean
+      - `kontuz`: horrek guztiak ez du esan nahi honako hau beteko denik, $C_{p}\equiv\left(\frac{\partial U}{\partial T}\right)_p$, egia dena honako hau da:
+        $$ \boxed{C_{p}\ne\left(\frac{\partial U}{\partial T}\right)_p}$$
+        Presioa konstante mantetzen bada, sistemari energia (bero moduan) *ematen* bazaio, sistemak ***bi*** askastasun-gradu erabil daitezke, termikoa (energia ematen zaio) eta mekanikoa (presioa konstante mantetzeko, orokorrean, bolumena aldatu behar baita eta, gainera, presioa konstante mantentzeko ingurunearekin ukipen mekanikoan egon behar du sistemak)
+  - Adierazpen horiek guztiek balio dute:
+    >***edozein sistemaren kasuan*** (bi askatasun-gradu independenteko, *termikoa* eta beste bat ($X,Y$)) sistemari dagokion adierazpena lortu da), ***edozein prozesuren kasuan*** (edozein aldagai termodinamikoren bikoteen funtzioan lortu da adierazpena), ***edozer lortzeko*** (trukatutako beroa, egindako lana edo/eta gertatu den barne-energiaren aldaketa)
+    >
+    >**Edozer lortzeko, erabil ezazu prozesuan konstante dirauen aldagaia (horrelakorik egotekotan, behintzat), horrela, aldagai horrekin lotutako atalak ez baitu ekarpenik egingo adierazpenean**
+
+
+- Ariketa moduan proposatu $(T, p):\hspace{0.25cm}\delta Q \rightarrow \delta Q (T, p)$ eta $(V, p):\hspace{0.25cm}\delta Q \rightarrow \delta Q (V, p)$ ondorioztatzea
+
+- Ariketa moduan proposatu honako hauek ondorioztatzea:
+$$(T, X)\hspace{1cm}\delta Q \rightarrow \delta Q (T, X)$$
+$$(T, Y)\hspace{1cm}\delta Q \rightarrow \delta Q (T, Y)$$
+$$(X, Y)\hspace{1cm}\delta Q \rightarrow \delta Q (X, Y)$$
+
 -----------------------
-
-
-**Sep2019-26**  (1.0 - 14.0; guztira 14.0)
-
-
-
------------------------
-
-## 3. astea
----------
-
-**Sep2019-30**  (1.0 - 15.0; guztira 15.0)
