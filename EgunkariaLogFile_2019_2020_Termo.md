@@ -512,17 +512,120 @@ $$C_{Y} - C_{X} =  -T \left(\frac{\partial X}{\partial T}\right)_Y \left(\frac{\
 
 **Sep2019-30**  (1.0 - 15.0; guztira 15.0)
 
----------
+- Lehenengo Printzipioaren adierazpen diferentziala $(T,X)$ aldagai termodinamiko independenteren funtzioan idatzi, aurreko eskoletan erabilitako metodoari segituz
 
+- Egiatan, hainbat modu dago adierazpen diferentziala lortzeko
+
+
+- `Zalantza argitu:`
+>  - aztergai den sistema adiabatikoki isolatuta egoteak ez du esan nahi sistemak ezin duenik egoera termikoa aldatu:
+>     - $\delta Q= 0 \Rightarrow dT= 0$, ez da egia
+>- aztergai den sistemaren tenperatura aldatzeko ez da beharrezkoa soilik beroa trukatzea:
+>     - $dT \neq 0 \Rightarrow \delta Q \neq 0$, ez da egia
+
+**5. Gaia: [<span style="color:orange">Apunteak](https://nbviewer.jupyter.org/github/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_ApunteakNotebooks/0_5_GasIdela.ipynb)**
+
+**5. Gaia: [Gas ideala](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/5_Gaia_GasIdeala/5_Gaia_GasIdeala.md)**, 5Z
+[gardenkia](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/05_01_42.pdf)
+
+- **5.1 [Espantsio askea (Zabaltze askea)](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/05_02_43.pdf)**
+  - masa konstanteko sistema hidrostatikoa: adiabatikoki isolatukoa da eta mekanikoki isolatukoa da, ez dauka, beraz, ingurunerik...unibertsoa da, erabat isolatuta baitago
+  - efektiboki ez dauka inolako askatasun-gradurik...denak ditu izoztuta
+  - horrela dagoela, ***hutsaren kontra zabaltzen*** utziko zaio
+
+    Lehen Printzipioa aplikatuz, honako hau lortzen da:
+    $$Q (\color{red}{=0}) = \Delta U - W (\color{red}{=0})\Rightarrow \boxed{\Delta U =0}$$
+  - Kontuz, horrek ez du esan nahi: $\delta U =0$ denik
+
+    Azken horren kasuan, prozesua kuasiestatiko da eta $U$ konstante mantentzen da
+
+    Espantsio askean, $U_{i}=U_{f}$, tartean ezin da jakin **zer egin duen**
+
+    >Sistema ez da oreka (termodinamikoko) egoeretatik pasatzen eta, beraz, ez dakigu ezer sistemaren egoerari buruz: barne-energiak gora zein behera egin dezake, hasierako balioarekin alderatuta, eta, egiatan horixe da egingo duena
+
+- Iruzkina:
+
+  - Gas idealari dagokion ***egoera-ekuazio mekanikoa*** ondorioztatzeko, *Virial-aren* garapena erabili behar da.
+
+- **5.2 [Gas ideala *kontzeptua*](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/05_04_44.pdf)**
+  - Kontzpetua definitu behar da, beraz, gure esku dago definizioa eta sistema berezi horrek izango dituen ezaugarriak zein diren esatea.
+  - Kontuz ibili behar da;
+
+    - eredu bat lortuko delako, eredu ideala, eta definizioa egin den hipotesietan oinarritutako da eredua: $dU=0$
+      *prozesuarekin lotutako hipotesia*
+
+    - kontzeptua definitzeko zenbait hipotesi onartu da: $dT=0$
+      *sistemarekin lotutako hipotesia*
+
+  >Gas idealak honako baldintza hau beteko du, *zabaltze askean zabaltzean*: bere tenperatura ez da aldatuko ($dT=0$) eta, gainera, zabaltze askean $dU=0$ beteko da
+
+  - Aldagai independenteen bi sorta ezberdin erabilita deskribatuko da prozesua:
+
+    1. Sistema deskribatzeko $T, V$ aldagai independenteen sorta aukeratuta:
+
+        Idatz dezadan $dU$ diferentzialari dagokion adierazpena, honako hau:
+
+      $$ dU = \left(\frac{\partial U}{\partial T}\right)_V dT+\left(\frac{\partial U}{\partial V}\right)_T dV$$
+
+      > Adierazpena erraztuko dut kontuan hartuz onartutako bi hipotesiak:
+      >
+      > $dU = 0$ eta $dT= 0$, ondorioa da:
+
+      $$\boxed{\left(\frac{\partial U}{\partial V}\right)_{T}=0}$$
+
+    2. Sistema deskribatzeko $T, p$ aldagai independenteen sorta aukeratuta:
+
+        Idatz dezadan $dU$ diferentzialari dagokion adierazpena, honako hau:
+
+      $$dU = \left(\frac{\partial U}{\partial T}\right)_p dT+\left(\frac{\partial U}{\partial p}\right)_T dp$$
+
+      > Adierazpena erraztuko dut kontuan hartuz onartutako bi hipotesiak:
+      >
+      > $dU = 0$ eta $dT= 0$, ondorioa da:
+
+      $$\boxed{\left(\frac{\partial U}{\partial p}\right)_{T}=0}$$
+
+      > Lortutako bi ondorioen ondorioa da barne-energiak tenperaturarekiko mendekotasuna baino ez duela:
+
+      $$ \boxed{U = U(T)} $$
+
+- Iruzkinak:
+  - $$\boxed{\left(\frac{\partial U}{\partial p}\right)_T=0}\Rightarrow \left(\frac{\partial U}{\partial p}\right)_T = \left(\frac{\partial U}{\partial V}\right)_T \left(\frac{\partial V}{\partial p}\right)_T (\neq 0)\Rightarrow \boxed{\left(\frac{\partial U}{\partial V}\right)_T = 0}$$
+
+  - Gas idealaren barne-energiaren adierazpena:
+    - edozein sistema hidrostatikoren kasuan, honako hau betetzen da: $\left(\frac{\partial U}{\partial T}\right)_{V}=C_{V}$
+    - gas idelaren egoera-ekuazio termikoa da: $U=U(T)$
+    - biak kontuan hartuz: $\boxed{\left(\frac{d U}{d T}\right)=C_{V}}$
+    - $dU = C_{V}dT\Rightarrow \int dU\equiv U = \int C_{V}dT$
+  - Gas idealaren $C_{V}=k$
+    - aurrekoarekin bat eginez: $\Delta U = C_{V}\Delta T \Leftrightarrow U = C_{V}T + k$
+    - azken adierazpenenaren kasuan, sistemari dagokion egoera bat ezagutu behar da integrazio-konstantearen balioa ezagutzeko
+    - edzoein prozesu eragin dela, hasierako eta bukaerako egoeren $T$ tenperaturaren balioak ezagututa $\Delta U$ barne-energiaren aldaketa ezaguna da
+- Lehenengo Printzipioaren adierazpen diferentziala (1)
+  prozesu kuasiestatiko (esan gabe doa, baina itzulgarria ere bada) (2)
+  masa konstanteko gas idealean (3):
+    - lehen printzipioa: $\delta Q = dU - \delta W$
+    - gas ideala sistema hidrostatikoa da: $\delta W = -pdV$
+    - gainera, gas idelaren egoera-ekuazio termikoa erabilita: $dU = C_{V}dT$
+
+  Orduan, (1) + (2) + (3), baina $(T,V)$ aldagai independentetzat hartuta
+    $$\delta Q = C_{V}dT + pdV$$
+  Orduan, (1) + (2) + (3), baina $(T,p)$ aldagai independentetzat hartuta, lortzeko:
+    $$\delta Q = C_{p}dT - Vdp$$
+- Zenbait modu dago azken adierazpen hori lortzeko:
+  1. orokorrak diren lehen printzpioaren adierazpenetan sistema jakinari buruzko informazioa ordezkatuz
+  1. $dV = dV(T,p)$ garatuz eta koefziente esperimentalak ($\alpha=\frac{1}{T}, \kappa_{T}=\frac{1}{p}$) ordezkatuz
 
 
 ---------
 
 **Oct2019-01**  (1.0 - 16.0; guztira 16.0)
 
----------
+- **5.3 [Prozesu adibatiko kuasiestatikoen  adierazpena](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/05_06_46.pdf)**
 
+- Jo [apunteetara](https://nbviewer.jupyter.org/github/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_ApunteakNotebooks/0_5_GasIdela.ipynb)
 
+- `Iruzkinak`
 
 
 ---------
