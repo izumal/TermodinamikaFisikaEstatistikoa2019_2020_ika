@@ -621,7 +621,9 @@ $$C_{Y} - C_{X} =  -T \left(\frac{\partial X}{\partial T}\right)_Y \left(\frac{\
 
 **Oct2019-01**  (1.0 - 16.0; guztira 16.0)
 
-- **5.3 [Prozesu adibatiko kuasiestatikoen  adierazpena](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/05_06_46.pdf)**
+- **5.3 [Prozesu adibatiko kuasiestatikoen  adierazpena](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/05_06_46.pdf)**
+
+
 
 - Jo [apunteetara](https://nbviewer.jupyter.org/github/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_ApunteakNotebooks/0_5_GasIdela.ipynb)
 
