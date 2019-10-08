@@ -638,28 +638,343 @@ $$C_{Y} - C_{X} =  -T \left(\frac{\partial X}{\partial T}\right)_Y \left(\frac{\
 
 **1. ordua**
 
+- Zalantza/Iruzkina argitu:
+
+
+
+- Prozesu politropikoak, gas idealetan
+
+- Iruzkinak
+
 
 **2. ordua**
 
 
+- Gas idealkin lotutako lau prozesu errazen azterketa:
+
+  #### Lau prozesuren azterketa, gas idealetan:
+
+**Isotermoa**
+
+Aldameneko irudiak adierazi duen moduan, bereizte-horma diatermanoz inguraturiko gas ideala dugu esku artean; $T_0$ tenperaturako bero-iturriarekin ukipen termikoan eta hasierako $p_{i}$ presioko presio-iturriarekin ere kontaktuan. Iturriaren presioa $p_{f}$ balioraino kuasiestatikoki aldatu da.
+
+Lortu ondokoak:
+
+1. Transferitutako lana,
+2. trukaturiko bero-kantitatea, eta
+3. gasaren barne-energiaren aldaketa.
+
+</div>
+<figure class="figure">
+  <img src="./irudiak/gasideala4prozesuIsotermo.jpg" class="figure-img img-fluid rounded" width="200">
+</figure>
+
+`Ebazpena`
+
+Erantzunen ordena aldatuko dut.
+
+  - Bero-iturriarekin ukipenean gertatzen den prozesuan tenperatura konstantea da; prozesu isotermoa da, beraz.
+
+
+$$
+\left. \begin{array}{l}
+ \Delta U = c_V nR\Delta T \\
+ \Delta T = 0 \\
+ \end{array} \right\} \Rightarrow \boxed{\Delta U = 0}
+$$
+
+  - Tenperatura konstantea denez, *prozesuaren ibilbidea* finkatuta dago eta lana, esaterako (diferentzial ez-zehatza) kalkulatu daiteke, ibilbidean integratuz. Kalkulatuko dut lana. Horretarako, $p=p(T, V)$ funtzioa, prozesuarena, adieraziko dut.
+
+$$W = - \int \frac{nRT}{V}dV $$
+
+-   eta tenperatura konstantea denez:
+$$W = - \int nRT \frac{1}{V}dV $$
+$$\boxed{W = -nRT \ln \frac{V_{f}}{V_{i}} }$$
+
+  - edo, egoera-ekuazioa erabilita:
+
+$$W = -nRT \ln \frac{p_{i}}{p_{f}}$$
+
+  - Azkenik, beroa kalkulatzeko, prozesu osoari, makroskopikoari, lehen printzipioa aplikatuko diot, diferentziaz kalkulatu daitekeela esaten da:
+
+  $$\boxed {Q = -W } $$
+
+>Interpretatu dezadan aurreko emaitza. Bero-iturriarekin ukipen termikoan gertatu den prozesua denez, tenperatura konstantea da. Ondorioz, gas idealaren barne-energiaren edukia ezin da aldatu: hasierakoa bukaerakoaren berdina da. Baina, gas ideala espantsioantu da; hau da, lana egin du (kanporatu du). Horrek energiaren edukia beheratuko du. Beherapena bero-iturritiko bero-xurgapenak konpentsatuko du. Barne-energiaren edukia aldatu gabe lana egin ahal izateko bero xurgatu behar du bero-iturritik. Beroa lan bihurtuko da, sistema tartekari moduan erabilita.
+
+- `Iruzkinak`
+
+
+  1. **Gas idealen bero-ahalmenak:**
+     1. konstanteak dira
+     2. *Mayer-en* erlazio orokortua erabiliz haien kasuan, honako hau da $C_{p}$ eta $C_{V}$ bero-ahalemen arteko erlazioa:
+      - $C_{p} - C_{V} =  T \left(\frac{\partial V}{\partial T}\right)_p \left(\frac{\partial p}{\partial T}\right)_V$
+      - $\left(\frac{\partial V}{\partial T}\right)_p\equiv\frac{1}{T}$
+      - $\left(\frac{\partial V}{\partial p}\right)_T\equiv\frac{1}{p}$
+      $$C_{p} - C_{V} = nR$$
+      - $C = c \,nR\Rightarrow C_{p,V}=c_{p,V}\,nR$
+      $$\boxed{c_{p} - c_{V} = 1}$$
+     3. - Gas ideal monoatomikoetan: $c_{V}=\frac{3}{2}$
+        - Gas ideal diatomikoetan: $c_{V}=\frac{5}{2}$
+
+
+  2. **Edozein ariketa egiteko bi motako informazioa erabili behar da:**
+     1. sistemari buruzkoa:
+        1. egoera-ekauzioak, koefiziente esperimentalak...
+        2. oreka-egoeraren bat
+     2. prozesuari buruzkoa:
+        1. kuasiestatiko izan behar du prozesuak
+           ez bada, barne-energiaren aldaketa baino ezin da kalkulatu
+        2. aipatutako *egoeraren bat* horrek egon behar du *prozesuan*
+
+  2. **Ebatzi den prozesu isotermoaren *bariantea***
+     1.
 ---------
 
 **Oct2019-03**  (1.0 - 19.0; guztira 19.0)
 
 ---------
+- Atzo planteatutako ariketekin jarraitu:
+
+**Isobaroa**
+
+$M$ masako eta $s$ sekzioko pistoi batek horma diatermano eta iragaztezinezko zilindro bertikal batean dagoen 1 mol gas itxi du. Bero-iturrien segida infinituarekin ukipean jarriz, $T_1$-etik $T_2$-ra pasatu da gasaren tenperatura.
+
+Lortu ondokoak:
+
+1. Hasierako eta amaierako egoeren presioa eta bolumena,
+2. $Q$, $W$ eta $\Delta U$.
+
+  $C_{V}$ eta $C_{p}$ konstanteak dira, pistoiaren beste aldean hutsa dago; eta, azkenik, grabitateak soilik du eragina pistoiaren gainean.
+</div>
+<figure class="figure">
+  <img src="./irudiak/gasideala4prozesuIsobaro.jpg" class="figure-img img-fluid rounded" width="200">
+</figure>
+
+`Ebazpena`
+
+Tenperatura era kuasiestatikoan aldatzeko, bero-iturrien sorta batekin ukipen termikoan jarri behar da sistema. Kasu honetan, zilindroa ixten presio konstantea eragingo duen pistoia dago; beraz, gertatuko den prozesua presio konstantekoa da, isobaroa $p=\frac{Mg}{s}$, esan bezala. Tenperaturak gora egiten duen heinean, presioa konstante adenez, bolumenak ere bai gora egingo du: proportzioanalak dira bolumena eta tenperatura (egoera-ekuazio mekanikoa).
+
+  1. Bolumena kalkulatzeko egoera-ekuazioa erabiliko dugu: $pV = nRT \Rightarrow V = \frac{nRT}{p}$
+$$pV = nRT \Rightarrow V = \frac{nRT}{p} \Rightarrow V_{f} = \frac{nRT_{f}}{p} \Rightarrow \boxed{V_{f} = \frac{s}{Mg}nRT_{f} }$$
+
+  2. Barne-energia kalkulatzeko, egoera-funtzioa denez (diferentzial zehatza), berdin dio nolakoa izan den prozesua, zer ibilbidetan gertatu den. Egoera-ekuazio termikoaren bidez lor daiteke *beti* barne-energiaren aldaketa.
+  $$\Delta U = c_{V} nR \Delta T \Rightarrow \boxed{\Delta U = c_{V} nR (T_{f}-T_{i}) } $$
+
+  3. Lanari dagokionez, kontuan hartuko dut prozesua isobaroa izan dela:
+
+  $$W = -\int pdV \Rightarrow W = -p \int dV \Rightarrow W = -p \Delta V \Rightarrow$$
+
+  $$W =-\frac{Mg}{s}\frac{s}{Mg} nR(T_{f}-T_{i}) \Rightarrow  \boxed{W = -nR(T_{f}-T_{i}) }$$
+
+  4. Beroa kalkulatzeko, berriro ere bai diferentziaz egingo dut:
+
+   $$Q = c_{V} nR (T_{f}-T_{i}) - \{ -nR(T_{f}-T_{i}) \} \Rightarrow  Q=(c_{V}+1) nR (T_{f}-T_{i}) \Rightarrow \boxed{Q=c_{p} nR (T_{f}-T_{i}) }$$
+
+  - Konturatu behar da, zuzenean kalkulatu daitekeela, kasu honetan, gas idealak trukatu duen beroa, ezaguna baita nola gertatu den prozesua, presio konstantean. Orduan, koefiziente esperimentalaren definiziotik abiatuta lor daiteke, kasu honetan, presio konstanteko bero-ahalmena.
+
+  - Azken adierazpena idazteko gas idealearen *Mayer-en* erlazioa erabili dut: $c_{p}=c_{V}+1$. Edo: $C_{p}=C_{V}+nR$.
 
 
+_____________
+
+**Isokoroa**
+
+
+Aurreko ariketako sistema berbera dugu; beraz, gas ideala dugu esku artean. Kasu honetan bolumena konstante mantenduko dut; horretarako, pistoiaren gainean area era jarraituan botako da.
+
+Lortu:
+
+1. Botatako are-kantitatea,
+2. $Q$, $W$ eta $\Delta U$.
+
+</div>
+<figure class="figure">
+  <img src="./irudiak/gasideala4prozesuIsokoro.jpg" class="figure-img img-fluid rounded" width="200">
+</figure>
+
+`Ebazpena`
+
+Oraingo honetan, berriro ere, bero-iturrien sorta erabiliz, sistemaren tenperatura aldatuko da $T_{1}$ etik $T_{2}$ ra; baina, bolumena konstante mantenduz. Tenperatura-aldaketak berarekin lotuta dakarren bolumen-aldaketa (presioa konstante mantenduz), presioa aldatuz konpentsatuko dugu. Kasu honetan, presioak segituko dio tenperaturari: $pV = nRT \Rightarrow p \propto T$, $\frac{nRT}{V}$ konstantea baita.
+
+$$\left. \begin{array}{l}
+ \left. {\begin{array}{*{20}c}
+   {V_i  = V_f  = V}  \\
+   \begin{array}{l}
+    p_i  = \frac{nRT_i}{V} \\
+    p_f  = \frac{nRT_f}{V} \\
+   \end{array}  \\
+\end{array}} \right\} \Rightarrow \Delta p = \frac{nR}{V}\left( {T_f  - T_i } \right) \\
+ \Delta p = \frac{g}{s}\Delta m_a  \\
+ \end{array} \right\} \Rightarrow \frac{g}{s}\Delta m_a  = \frac{nR}{V}\Delta T \Rightarrow \boxed{\Delta m_a  = \frac{s}{g}\frac{nR}{V}\Delta T}
+$$
+
+  1. Betiko eran, barne-energiari berdio dio prozesu mota:
+
+  $$\Delta U = c_{V} nR \Delta T \Rightarrow \boxed{\Delta U = c_{V} nR (T_{f}-T_{i}) } $$
+
+  2. Lana kalkulatzea oso erraza da, bolumena konstantea baita.
+
+  $$W = -\int pdV \Rightarrow W = -p \int dV \Rightarrow W = -p \Delta V \Rightarrow
+   W = 0 $$
+
+   bolumena konstantea baita.
+
+  3. Azkenik, beroari dagokionez, lanik egin ez duenez sistemak, barne-energiaren aldaketaren berdina da.
+
+  $$ Q = \Delta U \Rightarrow \boxed{Q = c_{V} nR (T_{f}-T_{i}) }$$
+
+   - Baina hori argi zegoen: bolumen konstanteko prozesua izanik, ezaguna ibilbidea, eta trukatuako beroa lortu daiteke $C_{V}$ bero-ahalamena zuzenean integratuz:
+
+	  $$ C_{V} \equiv \frac{\delta Q}{dT} \Rightarrow \delta Q = C_{V}\,dT \Rightarrow Q = C_{V}\Delta T$$
+
+>Aurreko ariketan gertatu den modu berean ere, oraingo honetan bero-kantitatea lortzeko, prozesua gertatu den baldintzak kontuan hartuz, zuzenenea kalkulatu daiteke: presioa konstante mantenduz edo bolumena konstante mantenduz, bero-ahalmenaren definizioa aplikatuz:
+>
+>$$ C = {(\frac {\delta Q}{dT})}_{\textrm{baldintzak}} \Rightarrow \delta Q = C_{\textrm{baldintzak}} dT$$
+>
+>$$ \int \delta Q = \int  C_{\textrm{baldintzak}} dT$$
+
+_____________
+
+**Adiabatikoa**
+
+Aurreko ariketako zilindroko hormak adiabatikoak direla onartuko da. Hasierako tenperatura $T_{i}$ da.
+
+  1. Zenbateko masa-kantitate gehitu behar diogu pistoiari kuasiestatikoki bukaerako tenperatura $T_{f}=kT_{i}$ izateko?
+  2. Lortu $Q$, $W$ eta $\Delta U$.
+
+<figure class="figure">
+  <img src="./irudiak/gasideala4prozesuAdiabatiko.jpg" class="figure-img img-fluid rounded" width="200">
+</figure>
+
+`Ebazpena`
+
+Prozesua adiabatikoa da; eta, beraz, sistemaren oreka-egoera ezaugarrituko dituzten aldagai guztien balioak aldatuko dira; ez edozein modutan, jakina, ondoko adierazpenetako bati segituz:
+
+$$pV^{\gamma}=C$$
+$$Tp^{\frac{1-\gamma}{\gamma}}=C'$$
+$$TV^{\gamma-1}=C''$$
+
+Egoera-ekuazioa bera eta horietako bigarrena erabiliko dut, bukaerako oreka-egoerarekin lotutako aldagien balioak kalkulatzeko:
+
+  - Hasierako egoera: ($T_{i}$, $p_{i}=\frac{Mg}{s}$, $V_{i}=\frac{nRT_{i}}{\frac{Mg}{s}}$)
+  - Bukaerako egoera: ($T_{f}=kT_{i}$, $p_{f}=\frac{(M+\Delta m)g}{s}$, $V_{f}=\frac{nRT_{f}}{p_{f}}$)
+
+$$	\left. \begin{array}{l}
+	p_{f}=p_{i}(\frac{T_{i}}{T_{f}})^{\frac{\gamma}{1-\gamma}}\\
+	p_{f}=\frac{(M+\Delta m)g}{s}\\
+  	 \end{array} \right\} \Rightarrow \boxed{\Delta m = M[k^{\frac{\gamma}{\gamma-1}-1}] }
+$$
+
+  1. Prozesua adibatikoa izan denez, honako hau bete da:
+
+ $$\boxed{Q=0}$$
+
+  2. Lehen Printzipioa aplikatuz, ondoko hau izango dugu: $\Delta U = W$
+
+$$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delta T }$$
 
 
 -----------------------
 
 ## 5. astea
 ---------
----------
 
 **Oct2019-07**  (1.0 - 20.0; guztira 20.0)
 
 ---------
+- Azken ariketari buruzko iruzkina:
+
+  - Sistema hidrostatikoa definitutakoan, hiru askatasun-gradukoa dela esan da, baina askatasun-gradu kimikoa izoztu zaio, hasieratik. Gas idela da horren kasu berezia, hots, *masa konstanteko gas ideala* da gas ideala soilik esaten denean, besterik esan ezean. Beraz, gas idealaren ereduan ondorioztatutako denek balio dute masa konstanteko gas idealaren kasurako.
+  - Azken ariketan, masa ez da konstante, beraz, zerbait aldatu beharko da eta kontuan hartu beharrekoa honako hau da: *barne-energia aldgai estentsiboa da beti*, hots, masarekiko mendekotasuna dauka beti, beraz, $U=U(T)$ idazten denean, honako hau idazten ari gara, inplizituki: $U=U(n,T)$, adierazpen orokor horretan $n$ adierazten du masarekiko mendekotasuna, edozein eskalatan.
+    - $C_{V}=\left(\frac{\partial U}{\partial T}\right)_V\Rightarrow C_{V}=\left(\frac{\partial U(n,T)}{\partial T}\right)_{n,V}$
+    - $U=U(n,T)$
+    - ondorioz: $\boxed{dU=C_V(n)\,dT}$ edo honako hau, orokorrean:
+      $$\Delta U = \Delta(C_{V}(n)\cdot T)$$
+
+- Honako ariketa hauek egin dira:
+
+  - #### 7. Ariketa
+    Airearen jokaera gas idelarena dela onartuz eta *Hidrostatikaren Ekuaziotik* abiatuz ($\textrm{d}\,p =  - \rho g\,\textrm{d}\,h$), lortu presioak altuerarekiko duen mendekotasuna.
+
+    `Ebazpena:`
+    - $dp =  - \rho gdh$, adierazpen horretan, $p$ presioa, $g$ grabitatea, $\rho$ airearen dentsitatea ($\rho=\frac{m}{V}$: $m$ airearen masa), $h$ altuera; Lurraren gainazalarekiko neurtuta: erreferentzian $h=0$.
+
+      Airea gas ideal moduan aztertu daitekeenez, enuntziatuaren arabera, gas idealaren egoera-ekuazio mekanikoa erabil daiteke: $pV=nRT$, non $n=\frac{m}{M_{m}}$ mol-kopurua den.
+      Informazio hori guztia esku artean dugula honako adierazpena lortu daiteke:
+
+      $$p \frac{m}{\rho} = \frac{m}{M_{m}}RT \Rightarrow p = \frac{RT}{M_{m}} \rho$$
+
+      Edo beste modu batean idatzita; eta abiapuntuko adierazpenean ordezkatuta:
+
+      $$\rho = \frac{pM_{m}}{RT} \Rightarrow \frac{dp}{dh} = -\frac{gM_{m}}{RT} p dh \Rightarrow \boxed{\frac{dp}{p} = -\frac{gM_{m}}{RT}dh } $$
+
+      Azken ekuazio diferentzial hori integratu behar da. Horretarako, $T=T(h)$ funtzioa ezagutu beharko litzateke. Demangun, dena den, integratu beharreko altuera-tartean (presio-tartean) tenperatura konstantetzat har daitekeela (*lerro isotermanoan zehar* integratzen ari gara, beraz). Horrela izanik, ekuazio diferentzialeko aldagaiak banatuta daude eta integrazioa zuzena da:
+
+      $$\boxed{\ln{\frac{p}{p_{0}}} = -\frac{gM_{m}}{RT}\Delta h} \Rightarrow \boxed{p=p_{0}e^{-\frac{gM_{m}}{RT}h}}$$
+
+
+  - #### 8. Ariketa
+    Fisikari mendizale batek honako altimetroa hau asmatu du: $\gamma$ konstante adiabatikoko gas idealez beteriko goma elastikoz egindako esferatxo adiabatikoa. Nola erabil dezake asmakizuna?
+
+    `Ebazpena:`
+    - Aurreko ariketan lortu den emaitzaren arabera $p=p_{0}e^{-\frac{gM_{m}}{RT}h}$, zenbat eta Lurraren gainazalarekiko altuera handiagoa izan orduan eta presioaren balio txikiagoak neurtuko dira; beti ere temperatura aldatuko ez dela onartzen bada.
+    - Altimetroa erabiliko da altuera zenbatekoa den jakiteko; kasu honetan, altuera presioarekin lotuta dago *Hidrostatikaren Ekuazioaren* bidez.
+    - Mendian gora egiten den heinean, oinez (poliki-poliki, beraz) eta eskuan eramanez gero gas idealez betetako gomazko esferatxo adiabatikoa honako prozesu hau eragingo diogula gas idealari esan daiteke:
+      - *kuasiestatikoa*: poliki-poliki betetako ibilbidea izango baita mendian gorako, normalean
+      - gas ideala barneratzen duen esferatxoa adiabatikoa da, beraz, gas idealak ez du *termikoki* ikusiko ingurunea; gas idealaren eta ingurunearen egoera termikoak ez daude lotuta, independenteak dira, ez dute termikoki elkar ikusten, bataren egoera termikoak ez dauka bestearen egoera termikoaren gaineko eraginik...*prozesua da adibatiko kuasiestatikoa*.
+      - esferatxoa gomazkoa izateak ondorioz dakar gas idalaren eta ingurunearen egoera mekanikoak lotuta daudela eta, prozesua kuasiestatikoa denez, gas ideala eta ingurunea elkarren arteko oreka mekanikoan daude, edozein azpiprozesu infinitesimaletan (beti esan daiteke hori, prozesua kuasiestatiko baita; normalean esango genuke, *edozein aldiunetan*, baina $t$ denbora formalismotik atera da...).
+      - `Ondorioz:` *gas idelari eragindako prozesua da adiabatiko kuasiestatikoa eta haren presioa eta egurats-presioa beti dira berdinak, eta rabil daiteke gas idealaren prozesu adiabatiko kuasiestatikoen adierazpena, honako hau, esaterako*:
+
+        $pV^{\gamma}=C \Rightarrow p_{i}{V_{i}}^{\gamma}=p_{f}{V_{f}}^{\gamma}$
+
+        Hortaz, presioa eta bolumena (esferatxoaren erradioa: $V=\frac{4}{3}\pi r^3$) lotuta daudenez: esferatxoaren erradioa neurtuz, presioaren balioa izango dugu. Eta azken hori ezagututa altuera kalkula daiteke.
+
+         $p=p_{i}e^{-\frac{gM_{m}}{RT}h} \Rightarrow p=p_{i}e^{-ch}$
+
+         $p_{i}(\frac{4}{3}\pi {r_{i}}^3)^{\gamma}=p_{f}(\frac{4}{3}\pi {r_{f}}^3)^{\gamma} \Rightarrow p_{i}{r_{i}^3}^{\gamma}=p_{i}e^{-ch}{r_{f}^3}^{\gamma}$
+
+         ${{r_{i}}^3}^{\gamma}=e^{-ch}{{r_{f}}^3}^{\gamma} \Rightarrow e^{ch}={\frac{r_{f}}{r_{i}}}^{3 \gamma}$
+
+         $ch=3\gamma \ln (\frac{r_{f}}{r_{i}}) \Rightarrow \boxed{h=\frac{3}{c} \gamma \ln \left(\frac{r_{f}}{r_{i}}\right)}$
+
+      - Hidrostatikaren Ekuazioa erabili da. Beraz, inplizituki onartu da tenperatura ez dela aldatu; mendian gora egin dugun altuera-tartean, behintzat. Jakina, eguratsaren tenperatura ez da aldatu. Esferatxoan sartu den gas idealaren tenperatura, aldiz, aldatu da, prozesu adiabatiko kuasiestatikoa eragin baitzaio, eta, horretan, sistemaren (gas idealaren) aldagai termodinamiko guztien (masa konstantea da...) balioak aldatzen dira.
+        Hortaz, asmakizunaren bariantea proposatu daiteke: esferatxoaren bolumena (erradioa) erabili beharrean, esferatxoan sartutako termometroa erabil daiteke.
+        Gas idealaren prozesu adiabatiko kuasiestatikoan, tenperatura eta presioa honako ekuazioaren bidez lotuta daude: $pT^{\frac{1-\gamma}{\gamma}}=C$.
+
+        Beste alde batetik, eta berriro ere gas idealaren egoera-ekuazio mekanikoa erabiliz, ondokoa adierazpena lor daiteke:
+
+        $\left(\frac{r_{f}}{r_{i}}\right)^{3} \propto \left(\frac{V_{f}}{V_{i}}\right)^{3} \Rightarrow  \frac{\left(\frac{nRT}{p_{f}}\right)^3}{\left(\frac{nRT}{p_{i}}\right)^3}$
+
+        $\frac{V_{f}}{V_{i}}=\frac{Tp_{i}}{T_{i}p}$
+
+        $\frac{p_{i}}{p}=\left(\frac{T}{T_{i}}\right)^{\frac{1-\gamma}{\gamma}}$
+
+        Aurreko adierapzenean dena ordezakatuz, honako hau lortuko da:
+
+        $$h=\frac{\gamma}{c}\ln (\frac{T}{T_{i}})^{\frac{1}{\gamma}} \Rightarrow \boxed{h=\frac{1}{c}\ln\left(\frac{T}{T_{i}}\right)}$$
+
+
+
+  - #### 10. Ariketa
+    Jarraitu al diezaioke gas ideal monoatomikoak irudian adierazi den prozesuari?
+    - Eta gas ideal diatomikoak?
+    Baiezkoan, zein gasetan gertatuko da tenperatura-aldaketarik handiena?
+    - Zer gertatzen da $U$ barne-energiarekin?
+    Onartu bi gas idealen mol kopuruak berdinak direla.
+
+    `Ebazpena:`
+
+    - Biek bete dezakete ibilbidea; ez dago izaeraren arabera. Gas idealari bi egoera-ekuazio dagokio: mekanikoa, $pV=nRT$; eta termikoa, $U=c_{V}nR T + k$. Egoera-ekuazio mekanikoak ez du nabarituko gas ideala monoatomikoa ala diatomikoa den: hartan ez baita ageri *partikula osatzaileen* ezaugarririk (ez dago izaeraren berririk, beraz). Aldiz, egoera-ekuazio termikoak bai nabarituko du: horretan, izaeraren marka baitago, $c_{V}$ hain zuzen ere. Hortaz, bien bukaerako tenperatura berdina izango da: $T_{f} = \frac{p_{f}V_{f}}{nR}$.
+
+      Bien bukaerako $(p,V)$ oreka-egoera bebera denez, lanari dagokionez ez dago alderik bien artean: biek egingo dute lan bebera. Jakina, irudian agertu den ibilbideak definitutako $p/V$ diagramako lerrotik beherako eta limiteen arteko azaleraren balioa da lana.
+
+      Gas bien arteko aldeak $\Delta U$ barne-energian agertuko dira, esan bezala. Orduan, eta Lehenengo Printzipioaren arabera, prozesuaren ondorioz lan-kantitate berbera egingo dute; eta, beraz, bata bestea baino errentagarriago izango da. Hots, batak besteak baino bero gutxiago behar izango du lan bebera egin ahal izateko.
+
+      ${C_{V}}_{mono}<{C_{V}}_{di}$
+
+      $({\Delta U = nR C_{V}})_{mono} < ({\Delta U = nR C_{V}})_{di}$
+
+      $({\Delta U - W})_{mono} < ({\Delta U - W})_{di} \Rightarrow Q_{mono} < Q_{di}$
 
 
 
