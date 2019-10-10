@@ -1037,7 +1037,7 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
       - Benetako enuntziatuan, sistemaren bolumena bikoiztu egiten da; dena dela, demagun hirukoiztu dela adierazten duela enunziatuak. Aldaketa honen helburua da konturaraztea enuntziatuek koherente izan behar dutela; ondoren argituko da.
       - Iruzkin orokorra: zikloak ebatzi behar direnean, egokiena da grafikoki adieraztea. Batzuetan, esplizituki eskatuko da grafikoki adieraztea diagramaren batean, hau da, aldagi termodinamiko independenteen bikote jakin bat erabiliz; beste batzueta, aldiz, ez da ezer esplizitu esango: edozein aldagien bikote aukeratu daiteke, errazena, agian, $p/V$ diagrama da.
         Horrelakoa erabiliko da zikloa adierazteko.
-        ![3Gaia_EgoeraEkuazioa_14Ariketa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Ariketak_notebooks/3Gaia_EgoeraEkuazioa_14Ariketa.pdf)
+        ![3Gaia_EgoeraEkuazioa_14Ariketa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Ariketak_notebooks/3Gaia_EgoeraEkuazioa_14Ariketa.png)
 
   - #### 15. Ariketa
       Esku artean duzun nitrogeno kantitatearen egoerari dagozkion ezaugarriak honako hauek dira: $p_{1}=8$ atm, $V_{1}=3$ $\mathscr{l}$, $T_{1}=25^{\circ}$ C. Beste egoera batean aldiz, sistema ezaugarrituko duten aldagai temodinamikoen balioak, hauexek dira: $V_{2}=4.5$ $\mathscr{l}$ eta $p_{2}=6$ atm.
