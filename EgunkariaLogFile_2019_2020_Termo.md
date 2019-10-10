@@ -984,8 +984,40 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
 **Oct2019-08**  (1.0 - 21.0; guztira 21.0)
 
 ---------
+- Honako ariketa hauek egin dira:
+
+  - #### 6. Ariketa
+    Zein da prozesu politropiko baten malda $p/V$ diagraman?
+
+    `Ebazpena:`
 
 
+  - #### 9. Ariketa
+    Har itzazu aintzakotzat zilindro baten barnean dauden gas ideal baten $N$ molak. Gas idealaren $C_V$ eta $C_p$ bero-ahalmenak konstanteak dira. Hasierako egoeran, gasaren bolumena eta tenperatura $V_{i}$ eta $T_{i}$  dira, hurrenez hurren. Gasa kuasisetatikoki zabaldu da amaierako bolumena eta presioa $V_f = kV_i$ eta $p_{f}$ izan arte.
+    Lortu:
+    - Indize politropikoa,
+    - $\Delta U$, $Q$ eta $W$.
+
+    `Ebazpena:`
+
+  - #### 11. Ariketa
+      Monoatomikoa eta diatomikoa diren bi gas (ideal) desberdinak tenperaturaren eta bolumenaren balio berberen bidez ezaugarritu ditugu. Haien bolumenak hasierako balioaren erdira izan arte konprimitu ditugu adiabatikoki. Zein dago tenperatura handiagoan?
+
+    `Ebazpena:`
+
+
+
+
+  - #### 13. Ariketa
+    Esku artean ditugun gas idealaren 4 mol termikoki isolatuta dagoen zilindroan daude, 6 atm-n eta 27 $^{\circ}$ C-ko tenperaturan. Bat-batean, zilindroa itxi duen pistoia askatu da. Ondorioz, gasa 1 atm-ko kanpo-presioaren kontra zabaldu da. Gasak bete duen bolumena hirukoiztu da.
+
+      Lortu ondokoak:
+       - amaierako tenperatura,
+       - barne-energiaren aldaketa,
+       - trukatutako beroa, eta egindako lana.
+     ($C_V  = \frac{3}{2}R$)
+
+    `Ebazpena:`
 
 
 ---------
@@ -996,8 +1028,48 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
 
 **1. ordua**
 
+- Honako ariketa hauek egin dira:
+
+  - #### 14. Ariketa
+      Gas ideal bati, 300 K-eko tenperaturan dagoena eta 1 mol-ekoa bera, bolumena (***hirukoiztu***) bikoiztu dion beroketa isobarikoa eragin diogu. Ondoren, hozketa isokoroaren bidez presioaren balioa hasierako presioaren erdira jaitsi dugu. Azkenik, hasierako egoerara eraman duen konpresio isotermoa eragin dugu. Prozesu guztiak **itzulgarriak** (*kuasiestatikoak*) dira. Lortu $Q$, $W$, $\Delta U$ azpi-prozesu guztietarako eta, ziklo osorako.
+
+      `Ebazpena:`
+      - Benetako enuntziatuan, sistemaren bolumena bikoiztu egiten da; dena dela, demagun hirukoiztu dela adierazten duela enunziatuak. Aldaketa honen helburua da konturaraztea enuntziatuek koherente izan behar dutela; ondoren argituko da.
+      - Iruzkin orokorra: zikloak ebatzi behar direnean, egokiena da grafikoki adieraztea. Batzuetan, esplizituki eskatuko da grafikoki adieraztea diagramaren batean, hau da, aldagi termodinamiko independenteen bikote jakin bat erabiliz; beste batzueta, aldiz, ez da ezer esplizitu esango: edozein aldagien bikote aukeratu daiteke, errazena, agian, $p/V$ diagrama da.
+        Horrelakoa erabiliko da zikloa adierazteko.
+        ![](3Gaia_EgoeraEkuazioa_14Ariketa.pdf)
+
+  - #### 15. Ariketa
+      Esku artean duzun nitrogeno kantitatearen egoerari dagozkion ezaugarriak honako hauek dira: $p_{1}=8$ atm, $V_{1}=3$ $\mathscr{l}$, $T_{1}=25^{\circ}$ C. Beste egoera batean aldiz, sistema ezaugarrituko duten aldagai temodinamikoen balioak, hauexek dira: $V_{2}=4.5$ $\mathscr{l}$ eta $p_{2}=6$ atm.
+      Lortu:
+      - Gasak jasotako bero kantitatea, egoera batetik bestera joandakoan.
+      - Zabaldutakoan, gasak egindako lana.
+      - Gasaren barne-energiaren aldaketa.
+
+      `Ebazpena:`
+      - Aztertu beharreko sistema da gas ideala, $N_{2}$, diatomikoa beraz. Betiko moduan, gas idealarekin lotutako informazio dena erabil daiteke, gainera, oraingo honetan, bero-ahalmenen balioak era bai ezagunak dira: $c_{V}=\frac{5}{2}\Rightarrow C_{V}=c_{V}nR$.
+      - Gehienetan, komeni da prozesuak lotzen dituen oreka-egoerak guztiz ezaugarritzea, hots, hasierako egoera eta bukaerako oreka-egoerak. Oraingo honetan, hasierakoa erabat ezaguna da eta, bukaerakoaren tenperatura baino ez da falta. Erabili egoera-ekuazio mekanikoa tenperatura lortzeko: $T_{2}=\frac{p_{2}V_{2}}{nR}\Rightarrow \boxed{T_{2}=27\cdot\frac{\textrm{atm}\cdot\mathscr{l}}{nR}}$
+      - Prozesua ez da aipatzen, ez da esaten nola eramaten den sistema hasierako egoeratik bukaerako egoerara, beraz, egoera-funtzioa ez den ezer ezin da kalkulatu: $Q$ eta $W$, sistemak trukatu duen beroa eta egin duen lana, hurrenez hurren, ez dago kalkulatzea.
+      - Aldiz, edozein egoera-funtzioren aldaketa kalkulatu daiteke, diferentzial zehatz den heinean, *berdin baitzaio* nola lotu diren hasierako eta bukaerako egoerak: beti dago definituta, hain zuzen, barne-energiaren aldaketa.
+        Gas ideala denez: $\Delta U = C_{V}\Delta T\left(\equiv T_{2} - T_{1}\right)\Rightarrow \Delta U = \frac{5}{2}nR\left[\frac{1}{nR}\left(p_{2}V_{2}-p_{1}V_{1}\right)\right]\Rightarrow \boxed{\Delta U = \frac{5}{2}\cdot 3 \textrm{  atm}\cdot\mathscr{l}}$
+
+- Honako ariketa hau planteatu:
+
+  - #### 12. Ariketa
+
+      Esku artean dugun gasaren barne-energiari dagokion adierazpena honako hau da:
+
+      $$ U = a\,T  + b\,p $$
+
+      adierazpen horretan, $a$ eta $b$ konstanteak dira. Koefiziente esperiementalak $\alpha = \frac{1}{T}$ eta $k_T = \frac{1}{p}$ badira, lortu $C_{p}$ eta $C_{V}$ bero-ahalmenak, $a$, $b$, $p$ eta $T$ parametroen funtzioan.
+
+      `Ebazpena:`
+
+
 
 **2. ordua**
+
+- Honako ariketa hauek egin dira, egoera-ekuazioa gaikoak:
 
 
 ---------
