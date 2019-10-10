@@ -970,11 +970,11 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
 
       Gas bien arteko aldeak $\Delta U$ barne-energian agertuko dira, esan bezala. Orduan, eta Lehenengo Printzipioaren arabera, prozesuaren ondorioz lan-kantitate berbera egingo dute; eta, beraz, bata bestea baino errentagarriago izango da. Hots, batak besteak baino bero gutxiago behar izango du lan bebera egin ahal izateko.
 
-      ${C_{V}}_{mono}<{C_{V}}_{di}$
+      $\left(C_{V}\right)_{mono}<\left(C_{V}\right)_{di}$
 
-      $({\Delta U = nR C_{V}})_{mono} < ({\Delta U = nR C_{V}})_{di}$
+      $(\Delta U = nR C_{V})_{mono} < (\Delta U = nR C_{V})_{di}$
 
-      $({\Delta U - W})_{mono} < ({\Delta U - W})_{di} \Rightarrow Q_{mono} < Q_{di}$
+      $(\Delta U - W)_{mono} < (\Delta U - W)_{di} \Rightarrow Q_{mono} < Q_{di}$
 
 
 
@@ -1043,8 +1043,31 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
         Horretarako, bukaerako egoerari dagokion tenperatura kalkulatzea besterik ez dago: $T_{3}=\frac{p_{3}V_{3}}{nR}\Rightarrow T_{3}=\frac{\frac{p_{0}}{2}3V_{0}}{nR}\Rightarrow T_{3}=\frac{3}{2} \frac{p_{0}V_{0}}{nR}\Rightarrow \boxed{T_{3}=\frac{3}{2}T_{0}\ne T_{0}}$
       - Baina enuntziatuko bolumenaren balioa erabiliz gero:
         $T_{3}=\frac{p_{3}V_{3}}{nR}\Rightarrow T_{3}=\frac{\frac{p_{0}}{2}2V_{0}}{nR}\Rightarrow T_{3}= \frac{p_{0}V_{0}}{nR}\Rightarrow \boxed{T_{3}=T_{0}}$ eta 1 eta 3 puntuak $T_{0}$ lerro isotermoak lotzen ditu.
-      - Iruzkin orokorra: zikloak ebatzi behar direnean, egokiena da normalean kalkulatu behar diren horiek, azpiprozesuko $\Delta U$, $Q$ eta $W$, taula batean adieraztea, honako era honetan, esaterako:  
+      - Iruzkin orokorra: zikloak ebatzi behar direnean, egokiena da normalean kalkulatu behar diren horiek, azpiprozesuko $\Delta U$, $Q$ eta $W$, taula batean adieraztea, honako era honetan, esaterako:
         ![3Gaia_EgoeraEkuazioa_14AriketaTaula](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Ariketak_notebooks/3Gaia_EgoeraEkuazioa_14Ariketa_taula.png)
+      - Ezer egin baino lehen, gorriz markatutakoak, 0, 1, 2, 3, taulan:
+        - (0): lehengo Printzipioaren adierazpen finitua, azpiprozesuetan aplikatu daiteke, hilaraka eta, ziklo osoan ere bai, azken zutabea
+        - (1): zutabeka, azpiprozesuetakoen batura ziklo osoari dagokio
+          lortutakoek zeinua dute, zenbait azpipozesutan sistemak trukatzen duen beroa (barne-energia, lana) positibo zein negatibo izan daiteke, esaterako, eta azpiprozesu guztietara hedatutako batukarian bero (barne-energia, lan) denek daramate dagoekien zeinua
+        - (2): edozein *propietateren, egoera-funtzioren, puntu-funtzioren, diferentzial zehatzen...* aldaketa nulua da zikloa betetakoan: zikloan, hasierako eta bukaerako egoerak
+      - lilaz markatutakoa da enuntziatuko zikloarei dagokion informazioa, ariketaren araberakoa beraz.
+        - Oraringo honetan ere bai zerbait bete daiteke kalkulurik egin gabe, bi mailatan, informazioa da:
+          - ***azpiprozezuarena***:
+            - $p=\textrm{k}$ edo $V=\textrm{k}$, beroaren kalkulua bero-ahalmenaren balioa erabilita egin daiteke: $C_{p,V}=\left(\frac{\delta Q}{dT}\right)_{p,V}\Rightarrow \boxed{\left(\delta Q\right)_{p,V}=\left[C_{p,V}dT\right]_{p,V}}$
+            - $V=\textrm{k}$ bada, $W=0$ sistemak ez du lanik egiten
+            - eta abar...
+          - ***sistemarena***: kasu honetan gasa da ideala, beraz:
+
+          | datuak |   |   |  |
+          | :------------      | :------: | :------: | :------: |
+          | e-e mekanikoa      | $p\, V\,=\, n\,R\, T$   | | |
+          | e-e termikoa       | $\Delta U=c_{V}\,nRT$      |  ||
+          | bero-ahalmenak     | $c_{V}$ | $c_{p}$ | *Mayer-en erlazioa* |
+          | monoatomikoa       | $\frac{2}{3}$ | $\frac{5}{3}$ | $n\,R$ |
+          | diatomikoa | $\frac{5}{3}$ | $\frac{7}{3}$ | $n\,R$ |
+          | indize adibatikoa: $\gamma\,=\,\frac{c_{p}}{c_{V}}$ | monoatomiko: $\frac{5}{3}$ | diatomiko:           $\frac{7}{5}$ |  |
+          | koefiziente esperimentalak | $\alpha=\frac{1}{T}$ | $\kappa_{T}=\frac{1}{p}$ |  |
+
 
   - #### 15. Ariketa
       Esku artean duzun nitrogeno kantitatearen egoerari dagozkion ezaugarriak honako hauek dira: $p_{1}=8$ atm, $V_{1}=3$ $\mathscr{l}$, $T_{1}=25^{\circ}$ C. Beste egoera batean aldiz, sistema ezaugarrituko duten aldagai temodinamikoen balioak, hauexek dira: $V_{2}=4.5$ $\mathscr{l}$ eta $p_{2}=6$ atm.
