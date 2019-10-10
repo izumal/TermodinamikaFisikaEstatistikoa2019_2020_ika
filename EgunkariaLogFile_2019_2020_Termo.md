@@ -1050,6 +1050,8 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
         - (1): zutabeka, azpiprozesuetakoen batura ziklo osoari dagokio
           lortutakoek zeinua dute, zenbait azpipozesutan sistemak trukatzen duen beroa (barne-energia, lana) positibo zein negatibo izan daiteke, esaterako, eta azpiprozesu guztietara hedatutako batukarian bero (barne-energia, lan) denek daramate dagoekien zeinua
         - (2): edozein *propietateren, egoera-funtzioren, puntu-funtzioren, diferentzial zehatzen...* aldaketa nulua da zikloa betetakoan: zikloan, hasierako eta bukaerako egoerak
+        - (3): zikloa betetakoan, sistemak trukatu duen bero efektiboa da sistemak egin duen lana
+           ***zikloaren ondorioz beroa lan bihurtzen da!***
       - lilaz markatutakoa da enuntziatuko zikloarei dagokion informazioa, ariketaren araberakoa beraz.
         - Oraringo honetan ere bai zerbait bete daiteke kalkulurik egin gabe, bi mailatan, informazioa da:
           - ***azpiprozezuarena***:
