@@ -1038,6 +1038,13 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
       - Iruzkin orokorra: zikloak ebatzi behar direnean, egokiena da grafikoki adieraztea. Batzuetan, esplizituki eskatuko da grafikoki adieraztea diagramaren batean, hau da, aldagi termodinamiko independenteen bikote jakin bat erabiliz; beste batzueta, aldiz, ez da ezer esplizitu esango: edozein aldagien bikote aukeratu daiteke, errazena, agian, $p/V$ diagrama da.
         Horrelakoa erabiliko da zikloa adierazteko.
         ![3Gaia_EgoeraEkuazioa_14Ariketa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Ariketak_notebooks/3Gaia_EgoeraEkuazioa_14Ariketa.png)
+      - Ezkerreko $p/V$ diagraman adierazita dago enuntziatuak aipatzen ez duen zikloa, eskuinekoan, aldiz, benetako enuntziatuak aipatzen duena.
+        Egiaztatu behar da, eta oso erraza da, bolumena hirukoizten bada, ezinezkoa dela lotzea bukaerako oreka-egoera, 3 puntua diagraman, hasierako oreka-egoerarekin, 1 puntua diagraman.
+        Horretarako, bukaerako egoerari dagokion tenperatura kalkulatzea besterik ez dago: $T_{3}=\frac{p_{3}V_{3}}{nR}\Rightarrow T_{3}=\frac{\frac{p_{0}}{2}3V_{0}}{nR}\Rightarrow T_{3}=\frac{3}{2} \frac{p_{0}V_{0}}{nR}\Rightarrow \boxed{T_{3}=\frac{3}{2}T_{0}\ne T_{0}}$
+      - Baina enuntziatuko bolumenaren balioa erabiliz gero:
+        $T_{3}=\frac{p_{3}V_{3}}{nR}\Rightarrow T_{3}=\frac{\frac{p_{0}}{2}2V_{0}}{nR}\Rightarrow T_{3}= \frac{p_{0}V_{0}}{nR}\Rightarrow \boxed{T_{3}=T_{0}}$ eta 1 eta 3 puntuak $T_{0}$ lerro isotermoak lotzen ditu.
+      - Iruzkin orokorra: zikloak ebatzi behar direnean, egokiena da normalean kalkulatu behar diren horiek, azpiprozesuko $\Delta U$, $Q$ eta $W$, taula batean adieraztea, honako era honetan, esaterako:  
+        ![3Gaia_EgoeraEkuazioa_14AriketaTaula](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Ariketak_notebooks/3Gaia_EgoeraEkuazioa_14Ariketa_taula.png)
 
   - #### 15. Ariketa
       Esku artean duzun nitrogeno kantitatearen egoerari dagozkion ezaugarriak honako hauek dira: $p_{1}=8$ atm, $V_{1}=3$ $\mathscr{l}$, $T_{1}=25^{\circ}$ C. Beste egoera batean aldiz, sistema ezaugarrituko duten aldagai temodinamikoen balioak, hauexek dira: $V_{2}=4.5$ $\mathscr{l}$ eta $p_{2}=6$ atm.
