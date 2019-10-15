@@ -1098,15 +1098,29 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
       `Ebazpena:`
 
 
-
 **2. ordua**
 
 - Honako ariketa hauek egin dira, egoera-ekuazioa gaikoak:
 
+  - #### 6. Ariketa
+
+  - #### 7. Ariketa
+
+  - #### 10. Ariketa
+
+  - #### 8. Ariketa
 
 ---------
 
 **Oct2019-10**  (1.0 - 24.0; guztira 24.0)
+
+- Honako ariketa hauek egin dira, egoera-ekuazioa gaikoak:
+
+  - #### 8. Ariketa
+
+  - #### 9. Ariketa
+
+  - #### 11. Ariketa
 
 ---------
 
@@ -1118,14 +1132,73 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
 
 **Oct2019-14**  (1.0 - 25.0; guztira 25.0)
 
----------
+**6. Gaia: [<span style="color:orange">Apunteak](https://nbviewer.jupyter.org/github/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_ApunteakNotebooks/0_6_BigarrenPrintzipioa.ipynb)**
 
+**6. Gaia: [Termodinamikaren Bigarren Printzipioa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/6_Gaia_BigarrenPrintzipioa/6_Gaia_BigarrenPrintzipioa.md)**, 6Z, 7Z, 8Z
+[gardenkia](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_05_53.pdf)
+- `Iruzkinak`:
+    1. Bigarren Printzipioak *esaten* du posibleak diren prozesuen artean, hots, Lehen    Printzipioarekin bat egiten dutenen artean, zein gertatzen diren berez
+        Lehen Printzipioaren arabera edozein prozesu gerta daiteke *aurrera* zein *atzekozaurrera*, noranzko batean energia kontserbatzen bada, kontrakoan, baita ere
+        Horixe da beheko irudian adierazi dena
+        ![Lehen eta Bigarren Printzipioak](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_01_49_1.png)
+        - ordenatuetan dago ***unibertsoari*** (erabat isolatutako sistemari, beraz,) dagokion energia eta, abszisetan egoerak daude, *egoera* orokorrak, edozein egoera.
+        - Lehen Printzipioaren arabera, energia kontserbatzen da (ez da ezer egin behar horretarako, Izadia ardurtatzen da horretaz) eta, beraz, ordenatu bereko egoerak baino ezin ditu lotu edozein prozesuk.
+        - Hala ere, posiblea da $i$-tik $f$-rako eta $f$-tik $i$-rako prozesuak, kontrako noranzkokoak haiek, ordenatu berean baitaude eta, ondorioz, energia berekoak dira: unibertsoaren energia berekoak
+        >- posiblea da ordenatu berean ez dauden egoerak lotzen dituzten prozesuak eragitea, baina kasu horietan, *eskua sartu* beharko da; eskua sartuta, unibertsoa aldatzen da: eskua sartzean ingurunenarekin lotzen baita, edozein modutan (edozein askatasun-graduren bidez) ordura arte benetako unibertsoa zena
+        - Bigarren Printzipioak argitzen du ordenatu berean dauden egoeren arteko zer prozesu gertatzen den berez: $i$-tik $f$-rakoa edo $f$-tik $i$-rakoa
+    2. Esan bezela, berez gertatzen den prozesua ez dago debekatuta, baina *zerga* dauka berarekin lotuta: aurrera eraman ahal izateko, *eskua sartu* egin behar da eta hori, Izadian, energia gastatzea da. Ez dago dena galduta baina!
+        - berezko prozesua erabil daiteke berezkoa ez den prozesua eragiteko, horretarako, aipatutako bi prozesuak akoplatu behar dira. Jakina, prozesu efektiboak bat egin behar du Bigarren Pintzipioarekin, oraingo honetan, *Entropia-emendioaren* forman emanik, esaterako.
+        - Entropia-emendioaren arabera, guztiz isolatutako (unibertsoaren) entropia-aldaketaren zeinua finkatuta dago:
 
+        $$\boxed{\Delta S_{i\to f}^{U}\geq 0 }; \Delta S_{i\to f}^{U} \equiv \Delta S_{i\to f}^{ing} + \Delta S_{i\to f}^{sis}=0$$
+
+        - Baina $\Delta S_{i\to f}^{U}$ definizioaren arabera, edozein konbinazio da posible, baturaren zeinua errespetatuz: horrexegatik *pentsatu* dezakegu, *pentsatzea ez baita berezko prozesua*
+- **6.1 [Izadiko asimetria](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_06_54.pdf)**
+    - Ez da ezer frogatuko, aldiz, argumentuak erabiliko dira *onargarritasuna* onartzeko; hots, dena da *ideal*
+    - Izadian asimetria dago: prozesu batzuk **berez** (naturalki, era naturalean, ...) gertatzen dira noranzko batean, baina ez kontrakoan
+    ***baina ez dira gertatzen era naturalean, berez, kontrako noranzkoan...***
+    - asimetria horren adierazgarri:
+        - *lana $\leftrightarrow$ beroa* transformazioak, Z liburuan aztertzen dira
+            `Kontuan` izan zer eredu erabiltzen den transformazio mota hori aztertzeko: sistemaren egoera ez da aldatzen.
+            Oso garrantzitsua da ereduaren ezaugarriak ondo ezagutzea, bestela, ez dabil.
+        - denon esperientzia dira honako hauek:
+            - inork ez du inoiz ikusi *beroa tenperaturaren maldan gora*
+            - inork ez du inoiz ikusi *mahai batean, esaterako, pausagunean dagoen pilotak berez, besterik gabe, gora egiten*
+        - horiek guztiak, eta gehiago, dira asimetriaren *aurpegiak*
+- **6.2 [Zikloak eta makina termikoak](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_07_55.pdf)**
+    - eskua sartuz, berezkoak ez diren prozesuak abiarazteko zikloak eta makinak (termikoak) beharrezkoak dira
+    - makina termikoetan beti erabiltzen da eskema grafiko berbera
+      horretan, bi bero-iturri baino ez dira adierazten, baina, kontuz!, horrek ez du esan nahi bi bero-iturrik baino ez duela beti parte hartzen edozein ziklotan:
+        - goi-tenperaturan dagoen bero-iturri bakarrak adierazten du efektiboa izan den (ziklikoki dabilen) sistemaren bero-xurgapena, nahiz eta xurgapen-azpiprozesu asko (bat baino gehiago) egon daitezkeen zikloan
+        - behe-tenperaturan dagoen bero-iturri bakarrak adierazten du efektiboa izan den (ziklikoki dabilen) sistemaren bero-kanporatzea, nahiz eta kanporatze-azpiprozesu asko (bat baino gehiago) egon daitezkeen zikloan
+        - jakina, sistema bera da erreferentzia (erreferentzia-sistema) bero-trukeei dagokienez
+    - lehen printzipioa *aplikatzen* zaio ziklikoki dabilen sistemari:
+    $$\left[Q = \Delta U - W\right]_{\textrm{ziklikoki dabilen sistema}}$$
+    - ziklikoki dabilenez: $\Delta U = 0$ eta, orduan, $Q = -W$
+    - hiru makina termiko aztertuko da eta beti erabiliko da eskema grafiko berbera, nahiz eta interpretazio bana duten makinek, helburu banakoak baitira makinak:
+        - **motor termikoa**:
+            - helburua da tenperatura-diferentzia aprobetxatzea lana egiteko
+            - berarekin lotutako parametroa $\eta$ *errendimendua (etekina)* da,
+            neurtzen du zenbat lan ateratzen den sartutako energia unitateko: $\eta = \frac{|W|}{|Q_{\downarrow|}}$
+        - **hozkailua**:
+            - helburua da tenperatura-diferentzia sorraraztea, horretarako, lana egin behar da
+            - berarekin lotutako parametroa $\epsilon$ *efizientzia (etekina)* da,
+            neurtzen du zenbat energia (bero moduan) ateratzen den hoztu nahi den sistematik, sartutako lan unitateko: $\epsilon = \frac{|Q_{\uparrow}|}{|W|}$
+        - **bero-ponpa**:
+            - helburua da goi-tenperaturan dagoen sistema bati energia (bero moduan) ematea, horretarako lan egin behar da
+            - berarekin lotutako parametroa $\epsilon_{p}$ *efizientzia (etekina)* da,
+            neurtzen du zenbat energia (bero moduan) sartzen den goi tenperaturan dagoen sisteman, horretarako erabil den energia (lan) unitateko: $\epsilon_{p} = \frac{|Q_{\uparrow}|}{|W|}$
+    - makina horiek guztiak ezaugarritzeko erabiltzen diren *errendimenduak* positiboak dira
+      horrexegatik beti erabili behar dira balio absolutuak
+    - *errendimenduen* adierazpenetan agertzen diren $|W|$ lanak beti dira: $|W| = |Q_{\uparrow}| - |Q_{\downarrow}|$, edo $Q_{\uparrow} + Q_{\uparrow} (\equiv Q) = - W$
 
 
 ---------
 
 **Oct2019-15**  (1.0 - 26.0; guztira 26.0)
+
+
+
 
 ---------
 
