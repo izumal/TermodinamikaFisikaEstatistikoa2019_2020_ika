@@ -1392,7 +1392,7 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
         $$ \boxed{\left(\frac{\partial S}{\partial T}\right)_Y = \frac{C_Y}{T}}$$
 
 
-- Zenbait iruzkin:
+- `Zenbait iruzkin:`
     - Bero-iturriari dagokion entropia-aldaketa, definizioz: $dS = \frac{\delta Q_{b-i}^{IG}}{T_{b-i}}$
         1. Baina bero-iturriak **beti** trukatzen du bero era itzulgarrian (kuasiestatikoki, $\delta Q$, infinitesimala da kantitatea oso handia baita; eta energia barreiaketarik, horixe baita daukan askatasun-gradu bakarra, hots, *ez daka ezer energia barreiatzeko*)
         2. Gainera, bero-iturriaren tenperatura beti da konstante, beraz, integraletik atera daiteke (horixe da, kasu honetan, *ibilbidea ezagutzea, ibilbideko integrala, diferentzial ez-zehatz baten integrala kalkulatzeko*)
@@ -1404,7 +1404,30 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
         - *liburuko erabilera praktikoari dagokionez*, badira berdinak: liburuaren arabera, kuasiestatiko izatean, *azpitik*, onartzen ari da itzulgarria dela baita ere
 
 
+- **Ariketa bat proposatu:**
+  - Aztertu behar den sistemaren ezaugarriak honako hauek dira: $m$ eta $c$; hots, badakigu zer masakoa den eta nola trukatzen duen energia bero moduan eta masa unitateko.
 
+    > Bero-ahalmen *horretan* ez dago adierazita zer baldintza esperimentaletan trukatuko duen beroa sistemak, baina, berdin dio, onartuko da, trukea gertatuko den moduari dagokiola aipatutako bero-ahalmena.
+
+  - Kalkulatu honako hauek:
+
+    1. Sistema eraman da 1-egoeratik, $T_{1}$ tenperaturakoa bera, 2-egoerara, $T_{2}$ tenperaturakoa bera. Prozesua bat-batean gertatu da.
+        - Lortu:
+          1. Unibertsoaren entropia-aldaketa: $\Delta S^{U}$
+          2. Sistemaren entropia-aldaketa: $\Delta S^{sis}$
+          3. Ingurunearen entropia-aldaketa: $\Delta S^{ing}$
+
+      >- Jakina, horiek guztiek honako hau betetzen dute:
+      >
+      >$$\Delta S^{U} = \Delta S^{sis} + \Delta S^{ing}$$
+      >
+      >- Onartu hasierako oreka-egoera lortzeko prozesua, hots, $T_{1}$ tenperaturan dagoen bero-iturriarekin ukipen termikoan jarritakoan gertatzen den prosezua dela prozesu osoaren parte.
+
+    2. Sistema eraman da 1-egoeratik, $T_{1}$ tenperaturakoa bera, 2-egoerara, $T_{2}$ tenperaturakoa bera, bat-bateko bi azpi-propsezuren bidez eraman da, bi tenperaturen artean, erdiko tenperatura tartekatuz. Oraingo honetan ere bai kalkulatu behar dira aurrekoan kalkulatu behar izandakoak.
+    3. Aurreko ariketa errepikatu, baina, oraingo honetan tarteko bi tesnperatura tartekatuz, bestela, dena gertatzen da baldintza berberetan.
+    4. ...
+    ...
+    5. ..limitera eramanda, hasierako eta bukaerako egoeren artean, infinitu tenperatura tartekatu dira...
 
 -----------------------
 
@@ -1413,6 +1436,29 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
 
 
 **Oct2019-21**  (1.0 - 30.0; guztira 30.0)
+
+- aurreko egunean planteatutako ariketa gogora ekarri: 3 helburu dauzka ariketak:
+
+  1. -
+  2. -
+  3. -
+
+<em>**6.6 Bigarren Printzipioaren Ondorioak**:</em>
+
+  - metodo teknikoa:
+      - [*Carnot-en* zikloa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_25_73.pdf):
+          - definzioa
+          - iruzkinak/ezaugarriak:
+              - *Carnot-en* zikloaren adierazpide grafikoa $(Y,X)$ diagrama orokorrean
+              - *Carnot-en* zikloaren adierazpide grafikoa $(T,S)$ diagraman: unibertsala da, ez da behar ziklikoki bueltaka dabilen sistemari buruzko informaziorik
+              - Ziklikoki dabilen sistema gas ideala da:
+                  - *Carnot-en* zikloaren adierazpide grafikoa $(p, V)$ diagraman
+                  - bestelako diagrametan: $(T, V)$, $(T, U)$, $(U, p)$, $\cdots$
+              - *Carnot-en* zikloari dagokion etekina, makina termikoan erabilita zikloa eta makina termikoa *motor termikoa* denean (proposatutako ariketa):
+              $$\boxed{\eta_C = 1 - \frac{T_1}{T_0}}$$
+
+          - ezaugarriak: 2. Printzipioa erabilita ondorioztatutakoak
+              - *Carnot-en* zikloaren etekinak ez dauka ziklikoki dabilen sistemarekiko mendekotasunik
 
 ---------
 
