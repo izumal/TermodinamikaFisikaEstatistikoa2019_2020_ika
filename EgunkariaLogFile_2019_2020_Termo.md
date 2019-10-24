@@ -1199,7 +1199,7 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
 
 - Gaiaren sarrera-orria komentatu (atzo ahaztu zitzaidan...)
 
-- **6.3 [Termodinamikaren Bigarren Printzipioaren (bi) enuntziatu](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_08_56.pdf)**
+- **6.3 [Termodinamikaren Bigarren Printzipioaren (bi) enuntziatu](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_08_56.pdf)**
     - 2.garren Printzipioaren zenbait enuntziatu dago; oraingo honetan *klasikoenak aztertuko dira.*
     - Ematen du ez dutela inolako loturarik, baina asimetria berberaren bi aurpegi baino ez dira.
     - Kontuz! Izugarri garrantzitsua da *inolako eraginik gabe, eskua sartu gabe, besterik gabe...* modukoak **beti** esatea enuntziatuak aipatzen direnean.
@@ -1208,14 +1208,14 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
         - posiblea da oso-osorik beroa lan bihurtzea, baina bero hori da bi bero efektiboren arteko batura algebraikoa; hots, badago eraginik, bero eran pasatzen zaio energia inguruneari eta, bide batez, lana egiten da
     - *Atkins-i* segituz: 2. Printzipioarekin lotutako aldagai termodinamikoa $S$ entropia da, askatasun-gradu termikoarekin lotutako aldagi estentsiboa bera, $T$ tenperaturaren aldagai konjokatua
 
-- **6.4 [Termodinamikaren Bigarren Printzipioaren bi enuntziatuen baliokidetasuna](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_09_57.pdf)**
+- **6.4 [Termodinamikaren Bigarren Printzipioaren bi enuntziatuen baliokidetasuna](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_09_57.pdf)**
 
-- **6.5 [Itzulgarritasuna/itzulezintasuna kontzeptua](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_10_58.pdf)**
+- **6.5 [Itzulgarritasuna/itzulezintasuna kontzeptua](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_10_58.pdf)**
 
 
 - **6.6 Bigarren Printzipioaren Ondorioak**:
 
-    1. **6.6.1 [Izadiko berezko prozesuak *itzulezinak* dira](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_09_57.pdf)**
+    1. **6.6.1 [Izadiko berezko prozesuak *itzulezinak* dira](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_09_57.pdf)**
     - Berezko prozesuen sailkapenak eta aztertzeak hiru ondorio dauka:
         1. berez gertatzen diren prozesuei buelta emateko, kontrako noranzkoan eragiteko, Bigarren Printzipioaren aurka egin behar da; beraz, ezinezkoak dira kontrako noranzkokoak eta, ondorioz, *berez gertatzen diren prozesuak **itzulezinak** dira*
         2. hortaz, horrexegatik, propietate komuna dute berezko prozesuek: energia-barreiatzea, edozein motatakoa, haiekin lotuta dago: barreiatutako energia hori, bero moduan, da lan bihurtu beharko litzakeena buelta emateko prozesuari...ezinezkoa bera
@@ -1223,7 +1223,7 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
             - kuasiestatiko
             - energia-barreiketarik gabeko
     - metodo axiomatikoa:
-        - [*Carathodory-ren* enuntziatua](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_12_60.pdf): [ikus honako hau](https://en.wikipedia.org/wiki/Constantin_Carath%C3%A9odory#Thermodynamics)
+        - [*Carathodory-ren* enuntziatua](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_12_60.pdf): [ikus honako hau](https://en.wikipedia.org/wiki/Constantin_Carath%C3%A9odory#Thermodynamics)
         2. [**G**ainazal **A**diabatikoen **E**xistentzia](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_12_60.pdf):
             - aldagai bakarreko sistema
                 - kasu honetan lehen printzipioa baino ez da behar, ez da bigarren printzipioaren potentzia osoa behar
@@ -1241,11 +1241,11 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
 - <em>**6.6 Bigarren Printzipioaren Ondorioak**:
     1. **6.6.1 [Izadiko berezko prozesuak *itzulezinak* dira](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_09_57.pdf)**
     - metodo axiomatikoa:
-        - [*Caratheodory-ren* enuntziatua](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_12_60.pdf): [ikus honako hau](https://en.wikipedia.org/wiki/Constantin_Carath%C3%A9odory#Thermodynamics)
-        2. [**G**ainazal **A**diabatikoen **E**xistentzia](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_12_60.pdf):
+        - [*Caratheodory-ren* enuntziatua](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_12_60.pdf): [ikus honako hau](https://en.wikipedia.org/wiki/Constantin_Carath%C3%A9odory#Thermodynamics)
+        2. [**G**ainazal **A**diabatikoen **E**xistentzia](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_12_60.pdf):
             - aldagai bakarreko sistema  </em>
             ------------------------------------------- <break>
-            - [aldagai anitzeko sistema](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_13_61.pdf)
+            - [aldagai anitzeko sistema](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_13_61.pdf)
                 - Aldagai anitzeko edozein sistemaren kasuan derrigorrean erabili behar da 2. printzipioaren indar osoa
                 - frogapena egin da konfigurazio-espazio berezi batean: hiru dimentsiokoa (fisikoki sistemak hiru askatasun-gradu baino ez dauka) baino ez bera, nahiz eta ondorioa erabat orokorra den eta, gainera, askatasun-graduak deskribatzeko erabili diren aldagaiak dira $U, X, X'$: sistemaren barne-energia eta bi desplazamendu orokortu. Denak dira estentsiboak
                 - nahikoa da diagrama bakarrean lortzea frogapena
@@ -1260,13 +1260,13 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
 **2. ordua**
 
 - <em>**6.6 Bigarren Printzipioaren Ondorioak**:
-    1. **6.6.1 [Izadiko berezko prozesuak *itzulezinak* dira](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_09_57.pdf)**
+    1. **6.6.1 [Izadiko berezko prozesuak *itzulezinak* dira](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_09_57.pdf)**
     - metodo axiomatikoa:
-        - [*Caratheodory-ren* enuntziatua](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_12_60.pdf): [ikus honako hau](https://en.wikipedia.org/wiki/Constantin_Carath%C3%A9odory#Thermodynamics)
-        2. [**G**ainazal **A**diabatikoen **E**xistentzia](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_12_60.pdf):
+        - [*Caratheodory-ren* enuntziatua](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_12_60.pdf): [ikus honako hau](https://en.wikipedia.org/wiki/Constantin_Carath%C3%A9odory#Thermodynamics)
+        2. [**G**ainazal **A**diabatikoen **E**xistentzia](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_12_60.pdf):
             - aldagai bakarreko sistema  </em>
             ------------------------------------------- <break>
-            - [aldagai anitzeko sistema](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_13_61.pdf)
+            - [aldagai anitzeko sistema](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_13_61.pdf)
                 - Aldagai anitzeko edozein sistemaren kasuan derrigorrean erabili behar da 2. printzipioaren indar osoa
                 - frogapena egin da konfigurazio-espazio berezi batean: hiru dimentsiokoa (fisikoki sistemak hiru askatasun-gradu baino ez dauka) baino ez bera, nahiz eta ondorioa erabat orokorra den eta, gainera, askatasun-graduak deskribatzeko erabili diren aldagaiak dira $U, X, X'$: sistemaren barne-energia eta bi desplazamendu orokortu. Denak dira estentsiboak
                 - nahikoa da diagrama bakarrean lortzea frogapena
@@ -1277,7 +1277,7 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
                     - sistemaren porpietate bat adierazteko erabil daiteke, beste edozein aldagai termodinamikoren antzera
                     - aldagai independenteen sortakoa izan daiteke eta, beraz, esaterako, honako hau idatz daiteke: $U = U(\sigma, X, X')$; konfigurazio-espazioko aldagaitzat hartuta
                 - **Gainazal adiabatiko itzulgarriek ezin dute elkar ebaki**: hala balitz, fragapenean erabiltako argumentazio berbera erabiliz berriro 2. Printzipioaren aurka egingo luke ziklo hipotetikoak eta kontraesana ondorioztatu beharko litzateke
-        2. [$\delta Q$-ren faktore integratzailea](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_14_62.pdf)
+        2. [$\delta Q$-ren faktore integratzailea](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_14_62.pdf)
             - Edozein sistemaren kasuan eta ***edozein prozesu itzulgarritan, kuasiestatiko eta energia-barreiaketarik gabeko bera,*** sistemak trukatzen duen beroa beti da honako hau:
 
             $$\boxed{\delta Q = \left(\frac{\partial U}{\partial \sigma}\right)\_{X,X'}\cdot d\sigma}\_{(1)}\Rightarrow \delta Q = \lambda \cdot d\sigma \Rightarrow \boxed{\frac{\delta Q}{\lambda} = d\sigma}\_{(2)}$$
@@ -1294,9 +1294,9 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
 
             - barne-energia aldagai estentsiboen, independenteak izanik, funtzioan idatzitakoan, edozein deribatu partzialek definitzen du bere aldagai intentsibo konjokatua
 
-            [grafikoki](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_15_63.pdf)
+            [grafikoki](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_15_63.pdf)
             - oso interesantea da adierazpide grafikoan agertzen diren prozesuak aztertzea eta deskribatzea (*ariketa-proposamena*)
-        - Faktore integratzailearen [esangura fisikoa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_16_64.pdf)
+        - Faktore integratzailearen [esangura fisikoa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_16_64.pdf)
             - honako hau $\delta Q = \lambda(t, X, X',\cdots ) \cdot d\sigma$, beste ere honetan idatz daiteke:
 
             $$\boxed{\delta Q = \phi(t) \cdot f(\sigma)d\sigma}$$
@@ -1307,10 +1307,10 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
             >- $t$ hori *ez da sistemaren tenperatura-funtzioa*, baizik eta sistema dagoen, beroa trukatzen duen heinean, egoera termikoari esleitu zaion tenperaturan balioa
             >- faktore integratzailea **unibertsala** da: sistemak era itzulgarrian bero-trukea egin duen egoera termikoaren menpekoa baino ez da; beroa trukatzen den egoera termikoen menpekoa
 
-            [frogapena](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_17_65.pdf)
+            [frogapena](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_17_65.pdf)
             - oso interesantea da frogapena, trebatzeko (*ariketa-proposamena*)
 
-        4. [*Kelvin* tenperatura-eskala](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_19_67.pdf)
+        4. [*Kelvin* tenperatura-eskala](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_19_67.pdf)
             - unibertsaltasun horrek ahalbidetzen du *tenperatura-eskalaren absolutua* definitzea
             - Tenperatura-eskala absolutuaren definizioan erabiltzen den aldaga termometrikoa da sistema batek $t$ tenperaturaren balioaz ezaugarritutako egoera termikoan dagoela, tenperatura konstantean, eta era itzulgarrian trukatzen duen beroa
             - tenperatura horretan trukatutako beroak badauka mendekotasuna:
@@ -1321,7 +1321,7 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
 
 - 6.6 Bigarren Printzipioaren Ondorioak
     - Ondorioak
-        5. [Entropia-funtzioaren existentzia](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_20_68.pdf)
+        5. [Entropia-funtzioaren existentzia](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_20_68.pdf)
 
         - $\delta Q = \lambda(t, X, X')\cdot d\sigma$
         - $\lambda(t,X, X') = \phi(t)\cdot f(\sigma)$
@@ -1337,13 +1337,13 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
 
          $$\boxed{dS \equiv \frac{\delta Q^{IG}} {T}}$$
 
-    - [Laburbilduma](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_21_69.pdf)
+    - [Laburbilduma](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_21_69.pdf)
         - Edozein sistemaren kasuan
         - Edozein prozesuren kasuan
             - itzulezin (IE)
             - itzulgarri (IG)
         - Beti kalkulatu daiteke prozesu horretan sisteman gertatu den entropia-aldaketa
-        - [Horretarako, 2 tresna](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_24_72.pdf):
+        - [Horretarako, 2 tresna](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_24_72.pdf):
             1. Bigarren Printzipioa, entropia-funtzioaren eragiketa-definizioa: $dS = \frac{\delta Q^{IG}} {T}$
             2. Lehenengo Printzipioa, era itzulgarrian trukatutako beroaren adierazpen diferentziala: $\delta Q^{IG} = \left[dU - \delta W\right]^{IG}$
             3. Biak aldiberean:
@@ -1359,8 +1359,8 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
 
 ---------
 
--   [Adibidea](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_22_70.pdf)
-    - [gas idealaren](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_23_71.pdf) kasuan (sistema jakina zeinaren informazio guztia, ia-ia, ezaguna den) edozein prozesutan kalkulatu daiteke zer entropia-aldaketa gertatu zaion
+-   [Adibidea](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_22_70.pdf)
+    - [gas idealaren](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_23_71.pdf) kasuan (sistema jakina zeinaren informazio guztia, ia-ia, ezaguna den) edozein prozesutan kalkulatu daiteke zer entropia-aldaketa gertatu zaion
 
 - Iruzkina:
     - Bi askatasun-graduko (edo orokorrean, bi askatasun-gradu martxan baino ez duen) sistemaren kasuan, entropia deskribatzeko honako bi aldagai independeteen sortak aukeratu daitezke, besteak beste:
@@ -1439,14 +1439,16 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
 
 - aurreko egunean planteatutako ariketa gogora ekarri: 3 helburu dauzka ariketak:
 
-  1. -
-  2. -
-  3. -
+  1. Entropia-funtzioa **batukorra** da, hortaz ohartaraztea
+       - Unibertsoaren entropia-aldaketa da sistemaren entropia-aldaketaren eta ingurunearen entropi-aldaketaren arteko batura
+       - sistemaren azterketan, sistemari dagokion entropia-aldaketa da haren ***zatien*** entropia-aldaketan batura
+  2. Kontuan hartze nola kalkulatu behar den bero-iturriaren (edozein) entropia-aldaketa
+  3. Edozein prozesu itzulezin itzulgarri ***bihurtzeko*** egin behar dena...ez da bihurtzen, baizik eta itzulezina den horren hasierako eta bukaerako egoera berberak lotuko duen prozesu itzulgarri bat eratzeko egin behar dena azaltzea da helburua: jakina, eskua sartu egin behar...
 
 <em>**6.6 Bigarren Printzipioaren Ondorioak**:</em>
 
   - metodo teknikoa:
-      - [*Carnot-en* zikloa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_25_73.pdf):
+      - [*Carnot-en* zikloa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_25_73.pdf):
           - definzioa
           - iruzkinak/ezaugarriak:
               - *Carnot-en* zikloaren adierazpide grafikoa $(Y,X)$ diagrama orokorrean
@@ -1460,23 +1462,102 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
           - ezaugarriak: 2. Printzipioa erabilita ondorioztatutakoak
               - *Carnot-en* zikloaren etekinak ez dauka ziklikoki dabilen sistemarekiko mendekotasunik
 
----------
-
-
+              - *Carnot-en* zikloaren etekina **maximoa** da finkatutako bi tenperatura horien artean dabilen edozein motorri dagokionarekin alderatuta
 
 ---------
+
 
 **Oct2019-22**  (1.0 - 31.0; guztira 31.0)
 
+4. [Kelvin tenperatura-eskala](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_28_76.pdf):
+Ariketa-proposamena
+
+    [Clausius-en Teorema](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_33_81.pdf):
+    - Ez da frogatuko
+5. [Entropia-funtzioaren existentzia](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_33_81.pdf):
+    - Hauxe da bere eduki fisikoa:
+        $$\oint\delta q_0 = T_0 \oint\frac{\delta q}{T} \leq 0$$
+    - *prozesua*, zikloa, IG: $\oint\frac{\delta q}{T} = 0$
+    Gainera, berori erabil daiteke $S$ entropia-funtzioa ondorioztatzeko
+        - Zikloko bi puntu aurkeratu: $i$ eta $f$
+        - Zikloa bera bi azpiprozesuz osatuta azter daiteke: $i \to f$ eta $f \to i$
+        - Azpipropzesu bakoitzean $S$ kalkulatu daiteke:
+            - $i \to f: \int_{i\to f}dS \equiv \Delta S_{i\to f}=\boxed{\Delta S_{i-f}={\int_{i}^{f}}_{a}\frac{\delta q}{T}}$
+            - $f \to i: \int_{f\to i}dS \equiv \Delta S_{f\to i}=\boxed{\Delta S_{f-i}={\int_{f}^{i}}_{b}\frac{\delta q}{T}}$
+        - $\Delta S_{i\to f \to i} = \Delta S_{i\to f}^{a} + \Delta S_{f\to i}^{b}$
+        - $\Delta S_{i\to f \to i} = 0$
+
+        $$\Delta S\_{i\to f}^{a} + \Delta S\_{f\to i}^{b} = 0 \Rightarrow \Delta S\_{i\to f}^{a} = - \Delta S\_{f\to i}^{b} \Rightarrow \underbrace{\Delta S\_{i\to f}^{a}}\_{\Downarrow\{\int_{i}^{f}} \frac{\delta q}{T}} = \underbrace{\Delta S\_{i\to f}^{b}}\_{\Downarrow\{\int_{i}^{f}} \frac{\delta q}{T}}$$
+
+    - *prozesua*, zikloa, IE: $\oint\frac{\delta q}{T} \lt 0$
+    Kasu honetan, $\frac{\delta q}{T}$ **inoiz ez da entropia**
+
+
 ---------
 
-
-
----------
 
 **Oct2019-23**  (1.0 - 32.0; guztira 32.0)
 
 ---------
+
+- **6.7 Entropia-emendioaren Printzipioa**
+
+  - [Izadiko berezko prozesuetako entropia-aldaketaren kalkulua](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_34_82.pdf):
+
+  - [Entropia-emendioaren frogapena, prozesu adiabatiko itzulezinetan](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_35_83.pdf):
+
+$$\boxed{\Delta S^{U} \equiv \Delta S^{ing} + \Delta S^{sis} \geq 0}$$
+
+<br>
+
+  - Iruzkinak:
+    1. 2 Printzipioak finkatzen du unibertsoaren entropia-aldaketaren zeinua
+    2. 2 printzipioak finkatzen du unibertsoaren entropia-aldaketak izan dezakeen baliorik txikiena, zero!
+    3. 2 Printzipioak ez du finkatzen ingurunearen eta sistemaren entropia-aldaketen balio erlatiboak: baturaren zeinua finkatuta dago, hori da baldintza murriztailea, baina, bestela, edozein konbinazio gerta daiteke (harekin bateragarri, jakina)
+
+
+  - **6.8 Lan Maximoaren Teorema**
+
+      - [Kualitatiboki](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_36_84.pdf):
+          - Helburua: Aztergai den sistemaren egoera-aldaketa jakina erabili nahi da lan maximoa (minimoa) lortzeko asmotan
+          - Egoera-aldaketa jakina denez, norberak finkatutakoa esaterako eta sistemaren propietateak *egoera-funtzioak* direnez (diferentzial zehatzak), horien edozein aldaketa finkoa da
+          - *edozein gauza* kalkulatzeko, 2 tresna baino ez dago, oraingoz:
+              - lehen printzipioa: energiaren kontserbazioaren printzipioa
+              - bigarren printzipioa: entropia-emendioaren forman, esaterako
+              - gainera, bi tresnak *unibertsoari dagozkie*: *unibertsoan aplikatu behar dira*
+              - <span style="color:red">hipotesiaren arabera, bi tresnetan sistemarekin lotutakoa finkatuta dago</span>
+
+
+
+      - [Kuantitatiboki (1)](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_37_85.pdf):
+          - Irudian adierazi nahi da eragingo den prozesua gertatzen den unibertsoaren inguruneak bi *zati* dauzka:
+              - bero-iturri (itzulgarria): berak egin dezakeen *gauza bakarra* (duen askatasun-gradu bakarra) da energia bero moduan trukatzea
+                  - edozein prozesutan beti eragiten zaio entropia-aldaketa: $dS^{b-i}=\frac{\delta Q^{b-i}}{T^{b-i}}$
+              - lan-iturri (itzulgarria): berak egin dezakeen *gauza bakarra* (duen askatasun-gradu bakarra) da energia lan moduan trukatzea
+                  - edozein prozesutan inoiz ez zaio eragiten entropia-aldaketa: $dS^{l-i} = 0$
+                  - lan-iturri itzulgarriaren ikuspuntutik prozesu denak, itzulgarriak direnez (bere izaeraz), kuasiestaikoak dira baina adiabatikoak ere bai, ezin baitu, inolaz ere, beroa trukatu, *ez baitauka askatasun-gradu termikorik*
+          - Unibertsoaren entropia-aldaketaren atalak dira
+              1. sistemaren ekarpena
+              2. ingurunetik, bero-iturri itzulgarriaren ekarpena
+          <span style="color:red">Entropia-aldaketa osoak *lotzen* ditu bero-iturria eta sistema, azken honen entropia-aldaketaren bidez </span>
+          - Energia-truke osoari dagokionez, hots, unibertsoari dagokion energia-aldaketari dagokionez, eta energia kontserbatu behar denez (1. Printzipioa)
+          <span style="color:red">Energiaren balantzeak *lotzen* ditu lan-iturria eta sistema, azken honen energia-aldaketaren bidez</span>
+      - [Kuantitatiboki (2)](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_38_86.pdf):
+          - Azken adierazpenaren irakurketa: sistemaren egoera-aldaketa finkotik lor daitekeen lan maximoak 2 atal dauzka:
+
+          $$\delta W^{l-i} = -\delta W - \left[TdS\left(1 - \frac{T^{b-i}}{T}\right)\right]$$
+          - atalak:
+              1. sistemak **zuzenean *emango*** duen lana: $\delta W$
+                  - lan horren izaera edozein izan daiteke, sistemaren askatasun-graduaren araberakoa: mekanikoa, magnetikoa, elektrikoa, elastikoa...
+                  - gehinetan onartuko da horrelako atalik ez dagoela
+                  - beraz, nahikoa izango da jakitea sistemak *nola trukatzen duen energia bero moduan*: sistemaren $C$ bero-ahalmena ezaguna izango da
+              2. sistematik prozesuan zehar tenperatura-diferentziak gertatzen direnez, horiek aprobetsatuz atera daitekeen lan maximoa
+              horri dagokion adierazpena da *Carnot-en* makina termikoaren adierazpena: $\delta Q \left(1 - \frac{T^{b-i}}{T}\right)=TdS \left(1 - \frac{T^{b-i}}{T}\right)$
+                  - $\delta Q = TdS$ da sistemak $T$ tenperaturan trukatzen duen beroa
+                  $T$ tenperaturaren balioa aldatuz doa, sistema masa finitukoa baita
+                  - $\left(1 - \frac{T^{b-i}}{T}\right)$ da $(T^{b-i}, T)$ tenperatura-diferentziarekin lotutako etekin maximoa, *Carnot-en* zikloari dagokiona, bi tenperatura horien arteako, sistemari dagokiona *aldiunekoa* da, aldatuz baitoa
+
+      - [Kuantitatiboki (3)](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_40_88.pdf):
 
 
 
@@ -1484,4 +1565,7 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
 
 **Oct2019-24**  (1.0 - 33.0; guztira 33.0)
 
----------
+- gogorarazi ***Lan Maximoaren Teorema***
+
+- Adibideak:
+    1. *[Ariketetako eskemak](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_41_89.pdf)*
