@@ -1445,7 +1445,7 @@ $$\Delta U = c_{V}nR(T_{f}-T_{i}) \Rightarrow \boxed{\Delta U = W = c_{V}nR\Delt
   2. Kontuan hartze nola kalkulatu behar den bero-iturriaren (edozein) entropia-aldaketa
   3. Edozein prozesu itzulezin itzulgarri ***bihurtzeko*** egin behar dena...ez da bihurtzen, baizik eta itzulezina den horren hasierako eta bukaerako egoera berberak lotuko duen prozesu itzulgarri bat eratzeko egin behar dena azaltzea da helburua: jakina, eskua sartu egin behar...
 
-<em>**6.6 Bigarren Printzipioaren Ondorioak**:</em>
+- <em>**6.6 Bigarren Printzipioaren Ondorioak**:</em>
 
   - metodo teknikoa:
       - [*Carnot-en* zikloa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_25_73.pdf):
@@ -1569,3 +1569,158 @@ $$\boxed{\Delta S^{U} \equiv \Delta S^{ing} + \Delta S^{sis} \geq 0}$$
 
 - Adibideak:
     1. *[Ariketetako eskemak](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_41_89.pdf)*
+
+-----------------------
+
+## 8. astea
+---------
+
+**Oct2019-28**  (1.0 - 34.0; guztira 34.0)
+
+---------
+
+1. *[Masa finituko bi sistemen arteko tenperatura-diferentzia aprobetxatu lana lortzeko](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_42_90.pdf)*
+
+- Iruzkinak:
+  - Bi sistemen arteko tenperatura-diferentzia
+    - ez da aprobetxatu nahi, lana egiteko: prozesua da IE, berezkoa baita
+        1. $\Delta U^{U} = 0 \Rightarrow Q^{U} = 0\Rightarrow \boxed{Q^{sis,T_A}+Q^{sis,T_B}=0}$
+            - batak *galtzen* duen energia besteak *irabazten* du
+            - horren arabera, sistema bakoitzaren kasuan, $\left[Q = \Delta U - W(=0)\right]^{i}\Rightarrow \left[Q = \Delta U\right]^{i}$
+            - eta trukatutako beroa beti kalkulatu daiteke barne-energia kalkulatuz, diferentzial zehatza da bera
+            - baldintza honek finkatzen du bukaerako egoera termikoa, beroa-ahalmenak ($c_A, c_B$) konstanteak badira
+            $\boxed{T_{f}^{IE}=\frac{m_A c_A T_{i}^{A} + m_B c_B T_{i}^{B}}{m_A c_A + m_B c_B}}$
+        2. Hori lortutakoan, kalkulatu daiteke zenbatekoa izan den entropia-aldaketa
+            - $\Delta S^{j} = \int\limits_{T_{i}^{j}}^{T_{f}^{IE}} \frac{m_j c_j}{T_{A}} dT, (j= A,B)\Rightarrow \Delta S^{U} = \int\limits_{T_{i}^{A}}^{T_{f}^{IE}} \frac{m_A c_A}{T_{A}} dT_{A} + \int\limits_{T_{i}^{B}}^{T_{f}^{IE}} \frac{m_B c_B}{T_{B}} dT_{B}$
+            - ($T_{A}, T_{B}$) aldagai mutuak dira, aldatuz doaz, masa finituko sistemak baitira
+    - aprobetxatu nahi da, lana egiteko:
+        1. $Q^{U} \equiv Q^{A} + Q^{B} = -W$, algebraikoa, zeinua *beroetan sartuta dago*
+            - onartuko da sistemek ez dutela lana zuzenean kanporatzen (edo ez dutela *kontsumituko* lanik, ez dela sartuko)
+            - oraingoan, batak galdutako beroa ez da besteak irabazten duena: bero-trukea modu berezian eragin behar da, zeinean unibertsoaren entropia-aldaketa ez den aldatzen, gustira, baina edozein azpi-prozesu infinitesimaletan ere ez
+        2. $d S^{U}=0\Rightarrow dS^{U} = dS^{A} + dS^{B} \Rightarrow 0= dS^{A} + dS^{B} \Rightarrow \boxed{dS^{B} = -dS^{B}}$
+            - bi sistemen artean gertatzen den bero-trukea oso berezia da: entropia kontserbatzen baitu, horretarako tartekatu den zerbaiten bidez, jakina
+            - baldintza horrek finkatzen du bukaerako egoera termikoa, bero-ahalmenak ($c_A$, $c_B$) konstanteak badira
+            $\boxed{T_{f}^{IG} = \left[(T_{i}^{A})^{m_A c_A}(T_{i}^{B})^{m_B c_B}\right]^{\frac{1}{m_A c_A + m_B c_B}} }$
+
+  - Lan minimoko edozein problema, lan maximoko problemaren *berdina* da, kontrako noranzkokoan eranginda
+    - Lan maximoa lortzeko eragin beharreko prozesuak itzulgarri izan behar du; beraz, beti bete daiteke kontrako noranzkoan
+    - Lan minimoaren probleman honako hau eskatzen da (gehienetan, problemaren aldaerak ere badaude): zenbatekoa den egin behar den lana tenperatura berean dauden bi sistemen artean teperatura-diferentzia jakina eragiteko
+    - Hasierako egoeran, bi sistemen egoera termikoak berdinak dira: $T_{i}^{min} = T_{f}^{max}$
+    Bukaerako egoeran, sistemen artean tenperatura-diferentzia dago: $T_{f}^{min} = T_{i}^{max}$
+    - Batean zein bestean lortuko diren lanen balio absolutuak berdinak dira
+        - **maximoa** eta **minimoa** *estremalak* dira (inflexio-puntuarekin batera) eta *lehen deribatuak berak ez daki zein den zein*, aipatutako hirurek betetzen baitute baldintza berbera lehen deribatuari dagokionez: nulua da
+        - Eta berori da erabili den baldintza bakarra: prozesua itzulgarria denez, unibertsoaren **entropia-*aldaketa*** nulua da, baina edozein azpi-prozesu infinitesimaletan, beraz, beti betetzen da $dS^{U}=0$ (lehen deribatua!)
+
+
+- **6.8 Lan Maximoaren Teoremaren adibideak**
+
+  - Adibideak:
+    1. *[Problema moten](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_41_89.pdf)* eskemak
+    1. *[Masa finituko bi sistemen arteko tenperatura-diferentzia aprobetxatu lana lortzeko](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_42_90.pdf)*
+    1. *[Masa finituko sistema eta bero-iturriaren arteko tenperatura-diferentzia aprobetxatu lana lortzeko](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_43_91.pdf)*
+
+  - Bi zalantza argitu:
+    1. Besterik gabe lotutakoan masa finituko bi sistema, zergatik kalkulatu daiteke beroa (diferentzial zehatza ez dena) prozesua itzulgarria izango balitz moduan, nahiz eta itzulezina den?
+       - Ikus gorago
+    1. Zer gertatzen da, aipatutako edozein prozesutan, bereziki, masa finituko sistema eta bero-iturria besterik gabe lotzean, masa finituko sistemaren masa bera ere aldatzen bada?
+    *Mahai gainean utzitako egin berri den fakeaz betetako potoari gertatzen zaion prozesua*
+       - Pentsatzeko
+
+
+- ***Ariketa proposatu: 27. ariketa***
+> Esku artean $C_{V}$ bero-ahalmeneko $N$ sistema berdin ditugu; beren tenperaturak $\{ T_{1}, T_{2}, \ldots T_{N}\}$ dira.
+>
+  >  1. Besterik gabe, elkarren arteko ukipen termikoan jarri dira.
+      Zenbatekoa da trukatu duten bero kantitate osoa?
+>
+  >  1. Demagun, ondoren, $T_{0}$ tenperaturan dagoen bero-iturria erabilgarri dela eta horrekin ukipen termikoan jarri direla sistemak.
+    Zenbatekoa da horrelako egoeratik atera daitekeen lan maximoa?
+>
+>    Jakina, lortu sistemen bukaerako oreka-egoera termikoa, arestian aipatutako bi kasuetan.
+
+------
+
+**Oct2019-29**  (1.0 - 35.0; guztira 35.0)
+
+- Proposatutako ariketa egin:
+  - Nahiz eta kasu honetan $N$ sistema izan, aurreko kasuetan bi sistema baino ez da aztertu, *bi lotze modutan: besterik gabe prozesu IEaren bidez, bi sistemen artean dagoen tenperatura-diferentzia lan egitearen ikuspuntutik aprobetxatzeko asmotan, lana maximizatuz, gainera, IGaren bidez lotuta, hortaz*, ebazpen-protokoloa ez da aldatzen; hots, aurreko kasuan egin den berbera egin behar da:
+
+    1. besterik gabe lotuz gero: **prozesua da IEa**:
+       1. EKParen (1. Printzipioa) ekuazioak finkatuko du zein den bukaerako orekako egoera termikoa, bukaerako tenperatura: $T_{f}^{IE}$
+       $$\boxed{T_{f}^{IE}=\frac{\sum\limits_{j=1}^{N} C_{V}^{j} T_{i}^{j} }{\sum\limits_{j=1}^{N} C_{V}^{j}}}$$
+       2. EEParen (*2. printzipioa*) ekuazioak finkatuko du zein den unibertsoaren entropia-aldaketa, positiboa bera:
+       $$\Delta S^{j} = \int\limits_{T_{i}^{j}}^{T_{f}^{IE}} \frac{C_{V}^{j}}{T^{j}} dT^{j}, (j= 1,\dots,N)\Rightarrow \boxed{\Delta S^{U} = \sum\limits_{j=1}^{N}\,\left[\int\limits_{T_{i}^{j}}^{T_{f}^{IE}} \frac{C_{V}^{j}}{T^{j}} dT^{j}\right]}$$
+    2. lana egiteko asmoz lotuz eta, gainera, lana maximoa izateko: **prozesua da IGa**:
+       1. EKParen (1. Printzipioa) ekuazioak finkatuko du zenbatekoa den aterako den lan maximoa:
+       $$Q^{U} \equiv \sum\limits_{j=1}^{N} Q^{j} = -W^{max}$$
+       $$Q^{j} = \int\limits_{T_{i}^{j}}^{T_{f}^{IE}} C_{V}^{j} dT^{j}, (j= 1,\dots,N)$$
+       2. EEParen (*2. printzipioa*) ekuazioak finkatuko du zein den bukaerako orekako egoera termikoa, bukaerako tenperatura: $T_{f}^{IG}$
+       $$\boxed{T_{f}^{IG} = \left[\prod\limits_{j=1}^{N}(T_{i}^{j})^{C_{V}^{j}}\right]^{\frac{1}{\sum\limits_{j=1}^{N} C_{V}^{j}}} }$$
+
+
+
+- **6.9 Energia ez-erabilgarria (*galdutako energia?*)**
+
+    - [Kontzeptua eta kalkuluaren adibide erraza](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_47_95.pdf):
+
+    - [*Frogapena*](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_48_96.pdf)
+
+    - [Energiaren *kalitatea*: Orokortzea](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2018_2019_ika/blob/master/1_Termodinamika_2019_2020/0_Irudiak/06_49_97.pdf), zuok irakurri eta hausnartu
+
+    - Iruzkinak:
+        - ***Iraganerako* mehatzatzea: ordenaren bila**
+
+        - Ez dauka zentzurik *energia aurrezteak*; printzipioz (lehenengo printzipioz), ez da ezer egin behar energia aurrezteko, berez, aurrezten da, kontserbatzen baita. Beste kontu bat da *kontserbatzen den energia hori lan egiteko erabili nahi izatea...*, horren kasuan, bigarren printzipioak hartzen du parte; haren ondorio bat, entropia bera, erabil daiteke *kalitate handiko energia aurreztu behar dela* esateko, beti ere, helburua lan egitea bada. Hots, askoz hobea da, errentagarriago lan egitearen ikuspuntutik, entropia txikiko energia erabiltzea lan egiteko entropia handiko energia baino
+
+
+------
+
+**Oct2019-30**  (1.0 - 36.0; guztira 36.0)
+
+- gogorarazi *Energia ez-erabilgarria*
+
+- Ariketa kualitatiboak:
+
+- Ariketa proposatu, pentsatzen joateko...: 15. ariketa
+
+  - ![15. ariketa](./TermodinamikaFisikaEstatistikoa2019_2020_ika/1_Termodinamika_2019_2020/0_Ariketak_notebooks/irudia_ariketak_2P_15Ariketa.pdf)
+
+------
+
+**Oct2019-31**  (1.0 - 37.0; guztira 37.0)
+
+
+- Proposatutako ariketa egin: 15. ariketa
+
+-----------------------
+
+## 9. astea
+---------
+
+**Nov2019-04**  (1.0 - 38.0; guztira 38.0)
+
+
+
+
+---------
+
+**Nov2019-05**  (1.0 - 39.0; guztira 39.0)
+
+
+
+
+---------
+
+**Nov2019-06**  (1.0 - 40.0; guztira 40.0)
+
+
+
+
+---------
+
+**Nov2019-07**  (1.0 - 41.0; guztira 41.0)
+
+
+
+
+---------
