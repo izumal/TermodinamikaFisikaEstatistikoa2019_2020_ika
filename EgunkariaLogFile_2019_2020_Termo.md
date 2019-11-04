@@ -1683,7 +1683,7 @@ $$\boxed{\Delta S^{U} \equiv \Delta S^{ing} + \Delta S^{sis} \geq 0}$$
 
 - Ariketa proposatu, pentsatzen joateko...: 15. ariketa
 
-  - ![15. ariketa](./TermodinamikaFisikaEstatistikoa2019_2020_ika/1_Termodinamika_2019_2020/0_Ariketak_notebooks/irudia_ariketak_2P_15Ariketa.png)
+  - ![15. ariketa](https://github.com/jmigartua/TermodinamikaFisikaEstatistikoa2019_2020_ika/blob/master/1_Termodinamika_2019_2020/0_Ariketak_notebooks/irudia_ariketak_2P_15Ariketa.png)
 
 ------
 
